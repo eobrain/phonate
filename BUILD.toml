@@ -16,7 +16,7 @@ sed <$< >$@ '
 s/ N Y/ñ/g
 s/ AA[0-9]*/o/g	#vowel
 s/ AE[0-9]*/a/g	#vowel
-s/ AH[0-9]*/a/g	#vowel
+s/ AH[0-9]*/u/g	#vowel
 s/ AO[0-9]*/o/g	#vowel
 s/ AW[0-9]*/a/g	#vowel
 s/ AY[0-9]*/a/g	#vowel
