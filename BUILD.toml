@@ -28,7 +28,7 @@ s/ AW[0-9]*/a/g	#vowel
 s/ AY[0-9]*/i/g	#vowel
 s/ B[0-9]*/b/g	#stop
 s/ CH[0-9]*/ch/g	#affricate
-s/ DH[0-9]*/j/g	#fricative
+s/ DH[0-9]*/th/g	#fricative
 s/ D[0-9]*/d/g	#stop
 s/ EH[0-9]*/e/g	#vowel
 s/ ER[0-9]*/e/g	#vowel
