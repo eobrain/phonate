@@ -32,7 +32,7 @@ s/ DH[0-9]*/th/g	#fricative
 s/ D[0-9]*/d/g	#stop
 s/ EH[0-9]*/e/g	#vowel
 s/ ER[0-9]*/e/g	#vowel
-s/ EY[0-9]*/a/g	#vowel
+s/ EY[0-9]*/ay/g	#vowel
 s/ F[0-9]*/f/g	#fricative
 s/ G[0-9]*/g/g	#stop
 s/ HH[0-9]*/h/g	#aspirate
