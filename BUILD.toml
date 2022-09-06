@@ -17,7 +17,7 @@ s/ N Y/ñ/g
 s/ AA[0-9]*/o/g	#vowel
 s/ AE[0-9]*/a/g	#vowel
 s/ AH[0-9]*/a/g	#vowel
-s/ AO[0-9]*/a/g	#vowel
+s/ AO[0-9]*/o/g	#vowel
 s/ AW[0-9]*/a/g	#vowel
 s/ AY[0-9]*/a/g	#vowel
 s/ B[0-9]*/b/g	#stop
@@ -51,8 +51,8 @@ s/ UW[0-9]*/oo/g	#vowel
 s/ V[0-9]*/v/g	#fricative
 s/ W[0-9]*/w/g	#semivowel
 s/ Y[0-9]*/i/g	#semivowel
-s/ ZH[0-9]*/z/g	#fricative
-s/ Z[0-9]*/z/g	#fricative
+s/ ZH[0-9]*/s/g	#fricative
+s/ Z[0-9]*/s/g	#fricative
 ' 
 """
 
