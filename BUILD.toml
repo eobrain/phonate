@@ -1,3 +1,6 @@
+[all]
+deps=["udhr-ph.md", "metric"]
+
 [metric]
 deps=["english.txt", "inglish.txt"]
 exec="expr 100 \* $(diff -w $+ | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
@@ -6,9 +9,12 @@ exec="expr 100 \* $(diff -w $+ | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
 deps=["english.txt", "inglish.txt"]
 exec="sdiff --width=50 --ignore-all-space $+ || true"
 
+["udhr-ph.md"]
+deps=["udhr.md", "phonetic.js"]
+exec="node phonate.js <$< >$@"
 
-["phonetic.js"]
-deps=["cmudict-0.7b", "BUILD.toml"]
+["phonetic.txt"]
+deps=["cmudict-0.7b.txt", "BUILD.toml"]
 exec="""
 sed <$< >$@ '
 /;;;.*$/d
@@ -57,7 +63,7 @@ s/ Z[0-9]*/s/g	#fricative
 """
 
 ["english.txt"]
-deps=["cmudict-0.7b"]
+deps=["cmudict-0.7b.txt"]
 exec="""
 sed <$< '
 /;;;.*$/d
@@ -67,10 +73,30 @@ s/.[1-9].//
 """
 
 ["inglish.txt"]
-deps=["phonetic.js"]
+deps=["phonetic.txt"]
 exec="""
 awk <$< '{print $2}' >$@
 """
 
 ["cmudict-0.7b"]
 exec="wget https://raw.githubusercontent.com/Alexir/CMUdict/master/cmudict-0.7b"
+
+["cmudict-0.7b.txt"]
+deps=["cmudict-0.7b"]
+exec="sed 's/\r//g' <$< >$@ "
+
+["phonetic.js"]
+deps=["phonetic.txt"]
+exec="""
+awk <$< >$@ '
+BEGIN {
+    print "export default {"
+} 
+$1 ~ /^[A-Z][A-Z]*$/ {
+    print $1 ": \\"" $2 "\\","
+}
+END {
+    print "};"
+}
+'
+"""
