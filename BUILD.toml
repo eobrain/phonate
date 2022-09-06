@@ -1,0 +1,72 @@
+[differences]
+deps=["english.txt", "inglish.txt"]
+exec="expr 100 \* $(diff -w english.txt inglish.txt | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
+
+
+["phonetic.js"]
+deps=["cmudict-0.7b", "BUILD.toml"]
+exec="""
+sed <$< >$@ '
+/;;;.*$/d
+/^[^A-Z]/d
+s/ N Y/ñ/g
+s/ AA[0-9]*/o/g	#vowel
+s/ AE[0-9]*/a/g	#vowel
+s/ AH[0-9]*/a/g	#vowel
+s/ AO[0-9]*/a/g	#vowel
+s/ AW[0-9]*/a/g	#vowel
+s/ AY[0-9]*/a/g	#vowel
+s/ B[0-9]*/b/g	#stop
+s/ CH[0-9]*/ch/g	#affricate
+s/ DH[0-9]*/j/g	#fricative
+s/ D[0-9]*/d/g	#stop
+s/ EH[0-9]*/e/g	#vowel
+s/ ER[0-9]*/e/g	#vowel
+s/ EY[0-9]*/a/g	#vowel
+s/ F[0-9]*/f/g	#fricative
+s/ G[0-9]*/g/g	#stop
+s/ HH[0-9]*/h/g	#aspirate
+s/ IH[0-9]*/i/g	#vowel
+s/ IY[0-9]*/y/g	#vowel
+s/ JH[0-9]*/j/g	#affricate
+s/ K[0-9]*/k/g	#stop
+s/ L[0-9]*/l/g	#liquid
+s/ M[0-9]*/m/g	#nasal
+s/ NG[0-9]*/ng/g	#nasal
+s/ N[0-9]*/n/g	#nasal
+s/ OW[0-9]*/o/g	#vowel
+s/ OY[0-9]*/oi/g	#vowel
+s/ P[0-9]*/p/g	#stop
+s/ R[0-9]*/r/g	#liquid
+s/ SH[0-9]*/sh/g	#fricative
+s/ S[0-9]*/s/g	#fricative
+s/ TH[0-9]*/th/g	#fricative
+s/ T[0-9]*/t/g	#stop
+s/ UH[0-9]*/u/g	#vowel
+s/ UW[0-9]*/oo/g	#vowel
+s/ V[0-9]*/v/g	#fricative
+s/ W[0-9]*/w/g	#semivowel
+s/ Y[0-9]*/i/g	#semivowel
+s/ ZH[0-9]*/z/g	#fricative
+s/ Z[0-9]*/z/g	#fricative
+' 
+"""
+
+["english.txt"]
+deps=["cmudict-0.7b"]
+exec="""
+sed <$< '
+/;;;.*$/d
+/^[^A-Z]/d
+s/.[1-9].//
+' | awk '{print $1}' | tr [:upper:] [:lower:] > $@
+"""
+
+["inglish.txt"]
+deps=["phonetic.js"]
+exec="""
+awk <$< '{print $2}' >$@
+"""
+
+["cmudict-0.7b"]
+exec="wget https://raw.githubusercontent.com/Alexir/CMUdict/master/cmudict-0.7b"
