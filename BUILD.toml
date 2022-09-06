@@ -20,45 +20,47 @@ sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
 s/ N Y/ñ/g
-s/ AA[0-9]*/o/g	#vowel
-s/ AE[0-9]*/a/g	#vowel
-s/ AH[0-9]*/e/g	#vowel
-s/ AO[0-9]*/oa/g	#vowel
-s/ AW[0-9]*/a/g	#vowel
-s/ AY[0-9]*/i/g	#vowel
-s/ B[0-9]*/b/g	#stop
-s/ CH[0-9]*/ch/g	#affricate
-s/ DH[0-9]*/th/g	#fricative
-s/ D[0-9]*/d/g	#stop
-s/ EH[0-9]*/e/g	#vowel
-s/ ER[0-9]*/e/g	#vowel
-s/ EY[0-9]*/ay/g	#vowel
-s/ F[0-9]*/f/g	#fricative
-s/ G[0-9]*/g/g	#stop
-s/ HH[0-9]*/h/g	#aspirate
-s/ IH[0-9]*/i/g	#vowel
-s/ IY[0-9]*/ee/g	#vowel
-s/ JH[0-9]*/j/g	#affricate
-s/ K[0-9]*/k/g	#stop
-s/ L[0-9]*/l/g	#liquid
-s/ M[0-9]*/m/g	#nasal
-s/ NG[0-9]*/ng/g	#nasal
-s/ N[0-9]*/n/g	#nasal
-s/ OW[0-9]*/o/g	#vowel
-s/ OY[0-9]*/oi/g	#vowel
-s/ P[0-9]*/p/g	#stop
-s/ R[0-9]*/r/g	#liquid
-s/ SH[0-9]*/sh/g	#fricative
-s/ S[0-9]*/s/g	#fricative
-s/ TH[0-9]*/th/g	#fricative
-s/ T[0-9]*/t/g	#stop
-s/ UH[0-9]*/u/g	#vowel
-s/ UW[0-9]*/oo/g	#vowel
-s/ V[0-9]*/v/g	#fricative
-s/ W[0-9]*/w/g	#semivowel
-s/ Y[0-9]*/i/g	#semivowel
-s/ ZH[0-9]*/s/g	#fricative
-s/ Z[0-9]*/s/g	#fricative
+s/ AA[012]*/o/g	#vowel
+s/ AE[012]*/a/g	#vowel
+s/ AH0/a/g	#vowel no stress
+s/ AH1/o/g	#vowel primary stress
+s/ AH2/o/g	#vowel secondary stress
+s/ AO[012]*/oa/g	#vowel
+s/ AW[012]*/a/g	#vowel
+s/ AY[012]*/i/g	#vowel
+s/ B[012]*/b/g	#stop
+s/ CH[012]*/ch/g	#affricate
+s/ DH[012]*/th/g	#fricative
+s/ D[012]*/d/g	#stop
+s/ EH[012]*/e/g	#vowel
+s/ ER[012]*/e/g	#vowel
+s/ EY[012]*/ay/g	#vowel
+s/ F[012]*/f/g	#fricative
+s/ G[012]*/g/g	#stop
+s/ HH[012]*/h/g	#aspirate
+s/ IH[012]*/i/g	#vowel
+s/ IY[012]*/ee/g	#vowel
+s/ JH[012]*/j/g	#affricate
+s/ K[012]*/k/g	#stop
+s/ L[012]*/l/g	#liquid
+s/ M[012]*/m/g	#nasal
+s/ NG[012]*/ng/g	#nasal
+s/ N[012]*/n/g	#nasal
+s/ OW[012]*/o/g	#vowel
+s/ OY[012]*/oi/g	#vowel
+s/ P[012]*/p/g	#stop
+s/ R[012]*/r/g	#liquid
+s/ SH[012]*/sh/g	#fricative
+s/ S[012]*/s/g	#fricative
+s/ TH[012]*/th/g	#fricative
+s/ T[012]*/t/g	#stop
+s/ UH[012]*/u/g	#vowel
+s/ UW[012]*/oo/g	#vowel
+s/ V[012]*/v/g	#fricative
+s/ W[012]*/w/g	#semivowel
+s/ Y[012]*/i/g	#semivowel
+s/ ZH[012]*/s/g	#fricative
+s/ Z[012]*/s/g	#fricative
 ' 
 """
 
