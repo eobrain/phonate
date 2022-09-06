@@ -31,7 +31,7 @@ s/ F[0-9]*/f/g	#fricative
 s/ G[0-9]*/g/g	#stop
 s/ HH[0-9]*/h/g	#aspirate
 s/ IH[0-9]*/i/g	#vowel
-s/ IY[0-9]*/y/g	#vowel
+s/ IY[0-9]*/ee/g	#vowel
 s/ JH[0-9]*/j/g	#affricate
 s/ K[0-9]*/k/g	#stop
 s/ L[0-9]*/l/g	#liquid
