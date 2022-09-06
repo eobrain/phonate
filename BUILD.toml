@@ -1,6 +1,10 @@
-[differences]
+[metric]
 deps=["english.txt", "inglish.txt"]
-exec="expr 100 \* $(diff -w english.txt inglish.txt | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
+exec="expr 100 \* $(diff -w $+ | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
+
+[diff]
+deps=["english.txt", "inglish.txt"]
+exec="sdiff --width=50 --ignore-all-space $+ || true"
 
 
 ["phonetic.js"]
