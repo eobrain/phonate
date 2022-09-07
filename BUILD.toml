@@ -3,7 +3,7 @@ deps=["udhr-ph.md", "metric"]
 
 [metric]
 deps=["english.txt", "inglish.txt"]
-exec="expr 100 \* $(diff -w $+ | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
+exec="expr 1000 \* $(diff -w $+ | wc -l) / \( 2 \* $(wc -l <english.txt) \)"
 
 [diff]
 deps=["english.txt", "inglish.txt"]
@@ -19,7 +19,6 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
-s/ N Y/ñ/g
 s/ AA[012]/o/g	    # ɑ~ɒ vowel 
 s/ AE[012]/a/g	    # æ vowel 
 s/ AH0/a/g	        # ʌ vowel no stress
