@@ -26,9 +26,9 @@ s/ AH0/a/g	#vowel no stress
 s/ AH1/o/g	#vowel primary stress
 s/ AH2/o/g	#vowel secondary stress
 s/ AO0/o/g	#vowel no stress
-s/ AO1/oa/g	#vowel primary stress
+s/ AO1/aw/g	#vowel primary stress
 s/ AO2/a/g	#vowel secondary stress
-s/ AW[012]/a/g	#vowel
+s/ AW[012]/ou/g	#vowel
 s/ AY[012]/i/g	#vowel
 s/ B/b/g	#stop
 s/ CH/ch/g	#affricate
@@ -60,7 +60,8 @@ s/ T/t/g	#stop
 s/ UH[012]/u/g	#vowel
 s/ UW[012]/oo/g	#vowel
 s/ V/v/g	#fricative
-s/ W/w/g	#semivowel
+s/  W/ w/g	#semivowel initial
+s/ W/u/g	#semivowel non-initial
 s/ Y/i/g	#semivowel
 s/ ZH/s/g	#fricative
 s/ Z/s/g	#fricative
