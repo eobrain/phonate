@@ -19,7 +19,9 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
-s/ AA[012]/o/g	    # ɑ~ɒ vowel 
+s/ AA0/0/g	    # ɑ~ɒ vowel
+s/ AA1/a/g	    # ɑ~ɒ vowel
+s/ AA2/o/g	    # ɑ~ɒ vowel
 s/ AE[012]/a/g	    # æ vowel 
 s/ AH0/a/g	        # ʌ vowel no stress
 s/ AH1/o/g	        # ʌ vowel primary stress
