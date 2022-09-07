@@ -36,7 +36,8 @@ s/ DH/th/g	#fricative
 s/ D/d/g	#stop
 s/ EH[012]/e/g	#vowel
 s/ ER[012]/e/g	#vowel
-s/ EY[012]/ay/g	#vowel
+s/ EY[012]$/ay/g	#vowel final
+s/ EY[012]/ai/g	#vowel not final
 s/ F/f/g	#fricative
 s/ G/g/g	#stop
 s/ HH/h/g	#aspirate
@@ -50,7 +51,8 @@ s/ M/m/g	#nasal
 s/ NG/ng/g	#nasal
 s/ N/n/g	#nasal
 s/ OW[012]/o/g	#vowel
-s/ OY[012]/oi/g	#vowel
+s/ OY[012]$/oy/g	#vowel final
+s/ OY[012]/oi/g	#vowel not final
 s/ P/p/g	#stop
 s/ R/r/g	#liquid
 s/ SH/sh/g	#fricative
