@@ -20,53 +20,53 @@ sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
 s/ N Y/ñ/g
-s/ AA[012]/o/g	#vowel
-s/ AE[012]/a/g	#vowel
-s/ AH0/a/g	#vowel no stress
-s/ AH1/o/g	#vowel primary stress
-s/ AH2/o/g	#vowel secondary stress
-s/ AO0/o/g	#vowel no stress
-s/ AO1/aw/g	#vowel primary stress
-s/ AO2/a/g	#vowel secondary stress
-s/ AW[012]/ou/g	#vowel
-s/ AY[012]/i/g	#vowel
-s/ B/b/g	#stop
-s/ CH/ch/g	#affricate
-s/ DH/th/g	#fricative
-s/ D/d/g	#stop
-s/ EH[012]/e/g	#vowel
-s/ ER[012]/e/g	#vowel
-s/ EY[012]$/ay/g	#vowel final
-s/ EY[012]/ai/g	#vowel not final
-s/ F/f/g	#fricative
-s/ G/g/g	#stop
-s/ HH/h/g	#aspirate
-s/ IH[012]/i/g	#vowel
-s/ IY[012]$/y/g	#vowel
-s/ IY[012]/ee/g	#vowel
-s/ JH/j/g	#affricate
-s/ K/k/g	#stop
-s/ L/l/g	#liquid
-s/ M/m/g	#nasal
-s/ NG/ng/g	#nasal
-s/ N/n/g	#nasal
-s/ OW[012]/o/g	#vowel
-s/ OY[012]$/oy/g	#vowel final
-s/ OY[012]/oi/g	#vowel not final
-s/ P/p/g	#stop
-s/ R/r/g	#liquid
-s/ SH/sh/g	#fricative
-s/ S/s/g	#fricative
-s/ TH/th/g	#fricative
-s/ T/t/g	#stop
-s/ UH[012]/u/g	#vowel
-s/ UW[012]/oo/g	#vowel
-s/ V/v/g	#fricative
-s/  W/ w/g	#semivowel initial
-s/ W/u/g	#semivowel non-initial
-s/ Y/i/g	#semivowel
-s/ ZH/s/g	#fricative
-s/ Z/s/g	#fricative
+s/ AA[012]/o/g	    # ɑ~ɒ vowel 
+s/ AE[012]/a/g	    # æ vowel 
+s/ AH0/a/g	        # ʌ vowel no stress
+s/ AH1/o/g	        # ʌ vowel primary stress
+s/ AH2/o/g	        # ʌ vowel secondary stress
+s/ AO0/o/g	        # ɔ vowel no stress
+s/ AO1/aw/g	        # ɔ vowel primary stress
+s/ AO2/a/g	        # ɔ vowel secondary stress
+s/ AW[012]/ou/g	    # aʊ vowel
+s/ AY[012]/i/g	    # aɪ vowel
+s/ B/b/g	        # b stop
+s/ CH/ch/g	        # tʃ affricate
+s/ DH/th/g	        # ð fricative
+s/ D/d/g	        # d stop
+s/ EH[012]/e/g	    # ɛ vowel
+s/ ER[012]/e/g	    # ɝ vowel
+s/ EY[012]$/ay/g	# eɪ vowel final
+s/ EY[012]/ai/g	    # eɪ vowel not final
+s/ F/f/g	        # f fricative
+s/ G/g/g	        # ɡ stop
+s/ HH/h/g	        # h aspirate
+s/ IH[012]/i/g	    # ɪ vowel
+s/ IY[012]$/y/g	    # i vowel final
+s/ IY[012]/ee/g	    # i vowel not final
+s/ JH/j/g	        # dʒ affricate
+s/ K/k/g	        # k stop
+s/ L/l/g	        # l liquid
+s/ M/m/g	        # m nasal
+s/ NG/ng/g	        # ŋ nasal
+s/ N/n/g	        # n nasal
+s/ OW[012]/o/g	    # oʊ vowel
+s/ OY[012]$/oy/g	# ɔɪ vowel final
+s/ OY[012]/oi/g	    # ɔɪ vowel not final
+s/ P/p/g	        # p stop
+s/ R/r/g	        # ɹ liquid
+s/ SH/sh/g	        # ʃ fricative
+s/ S/s/g	        # s fricative
+s/ TH/th/g	        # θ fricative
+s/ T/t/g	        # t stop
+s/ UH[012]/u/g	    # ʊ vowel
+s/ UW[012]/oo/g	    # u vowel
+s/ V/v/g	        # v fricative
+s/  W/ w/g	        # w semivowel initial
+s/ W/u/g	        # w semivowel non-initial
+s/ Y/i/g	        # j semivowel
+s/ ZH/s/g	        # ʒ fricative
+s/ Z/s/g	        # z fricative
 ' 
 """
 
