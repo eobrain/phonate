@@ -45,6 +45,7 @@ s/ G/g/g	        # ɡ stop
 s/ HH/h/g	        # h aspirate
 s/ IH[012]/i/g	    # ɪ vowel
 s/  ([A-Z]) IY1$/ \\\\1y/g	        # i primary stress vowel final
+s/ IY0$/y/g	        # i unstress vowel final
 s/ IY1$/ee/g	        # i primary stress vowel final
 s/ IY[012]/ee/g	    # i vowel not final
 s/ JH/j/g	        # dʒ affricate
