@@ -38,7 +38,7 @@ s/ CH/ch/g	        # tʃ affricate
 s/ DH/th/g	        # ð fricative
 s/ D/d/g	        # d stop
 s/ EH[012]/e/g	    # ɛ vowel
-s/ ER[012]/e/g	    # ɝ vowel
+s/ ER[012]/er/g	    # ɝ vowel
 s/ EY[012]$/ay/g	# eɪ vowel final
 s/ EY[012]/ai/g	    # eɪ vowel not final
 s/ F/f/g	        # f fricative
