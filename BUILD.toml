@@ -19,7 +19,7 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
-s/ AA0/0/g	    # ɑ~ɒ vowel
+s/ AA0/o/g	    # ɑ~ɒ vowel
 s/ AA1/a/g	    # ɑ~ɒ vowel
 s/ AA2/o/g	    # ɑ~ɒ vowel
 s/ AE[012]/a/g	    # æ vowel 
@@ -30,7 +30,8 @@ s/ AO0/o/g	        # ɔ vowel no stress
 s/ AO1/aw/g	        # ɔ vowel primary stress
 s/ AO2/a/g	        # ɔ vowel secondary stress
 s/ AW[012]/ou/g	    # aʊ vowel
-s/ AY[012]/i/g	    # aɪ vowel
+s/ AY[012]$/y/g	    # aɪ vowel final
+s/ AY[012]/i/g	    # aɪ vowel not final
 s/ B/b/g	        # b stop
 s/ CH/ch/g	        # tʃ affricate
 s/ DH/th/g	        # ð fricative
@@ -43,7 +44,8 @@ s/ F/f/g	        # f fricative
 s/ G/g/g	        # ɡ stop
 s/ HH/h/g	        # h aspirate
 s/ IH[012]/i/g	    # ɪ vowel
-s/ IY[012]$/y/g	    # i vowel final
+s/  ([A-Z]) IY1$/ \\\\1y/g	        # i primary stress vowel final
+s/ IY1$/ee/g	        # i primary stress vowel final
 s/ IY[012]/ee/g	    # i vowel not final
 s/ JH/j/g	        # dʒ affricate
 s/ K/k/g	        # k stop
