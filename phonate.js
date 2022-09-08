@@ -1,6 +1,25 @@
 import phonetic from './phonetic.js'
+
+function matchCase(pattern, word) {
+    const n = Math.min(pattern.length, word.length)
+    let result = '';
+    let i=0;
+    let isUpper = false
+    for (; i < n; i++) {
+        const p = pattern[i]
+        const w = word[i]
+        isUpper = p.match(/[A-Z]/)
+        result += isUpper ? w.toUpperCase() : w
+    }
+    for (; i < word.length; i++) {
+        const w = word[i]
+        result += isUpper ? w.toUpperCase() : w
+    }
+    return result
+}
+
 function onReadWord (word) {
-  const ph = phonetic[word.toUpperCase()] || word
+  const ph = matchCase(word, phonetic[word.toUpperCase()] || word)
   process.stdout.write(ph)
 }
 
