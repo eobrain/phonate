@@ -57,6 +57,7 @@ s/ OW[012]/o/g	    # oʊ vowel
 s/ OY[012]$/oy/g	# ɔɪ vowel final
 s/ OY[012]/oi/g	    # ɔɪ vowel not final
 s/ P/p/g	        # p stop
+s/ R S/rse/g	    # s cluster
 s/ R/r/g	        # ɹ liquid
 s/ SH/sh/g	        # ʃ fricative
 s/ S/s/g	        # s fricative
