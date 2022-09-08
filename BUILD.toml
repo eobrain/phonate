@@ -50,7 +50,7 @@ s/ IY0$/y/g	        # i unstress vowel final
 s/ IY1$/ee/g	        # i primary stress vowel final
 s/ IY[012]/ee/g	    # i vowel not final
 s/ JH/j/g	        # dʒ affricate
-s/ K/k/g	        # k stop
+s/ K/c/g	        # k stop
 s/ L/l/g	        # l liquid
 s/ M/m/g	        # m nasal
 s/ NG/ng/g	        # ŋ nasal
