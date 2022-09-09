@@ -18,6 +18,32 @@ function matchCase(pattern, word) {
     return result
 }
 
+
+export function convert(content) {
+  let result = ''
+  let word = ''
+  let inWord = false
+  for (let i = 0; i < content.length; i++) {
+    if (content[i].match(/[A-Za-z]/)) { // word
+      // sep -> word
+      if (!inWord) {
+        result += word
+        word = ''
+        inWord = true
+      }
+    } else { // sep
+      // sep -> word
+      if (inWord) {
+        result += matchCase(word, phonetic[word.toUpperCase()] || word)
+        word = ''
+        inWord = false
+      }
+    }
+    word += content[i]
+  }
+  return result
+}
+
 function onReadWord (word) {
   const ph = matchCase(word, phonetic[word.toUpperCase()] || word)
   process.stdout.write(ph)
@@ -27,7 +53,6 @@ function onReadSep (sep) {
   process.stdout.write(sep)
 }
 
-// read input and split into lines
 let BUFF = ''
 let inWord = false
 export function onData(buff) {
@@ -64,5 +89,6 @@ export function onEnd(){
     }
   }
 }
+
 
 console.log('phonate.js)')

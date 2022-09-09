@@ -1,21 +1,21 @@
 # Inglish
 
-Generate phonetic dictiionary.
+Jenerait fanetic dicshanery.
 
-To execute.
+Too ecsacioot
 
-1. Install [node][1] (for example by installing [nvm][2] and executing `nvm use stable`)
-1. Install bajel
+1. Instawl [node][1] (fawr igsampal by instawling [nvm][2] and ecsaciooting `nvm use stable`)
+1. Instawl bajel
    ```sh
    npm install -g bajel
    ```
-2. In this directory execute
+2. In this derectery ecsacioot
    ```sh
    bajel
    ```
-3. THis will generate a file called `phonetic.js`
+3. This wil jenerait a fil cawld `phonetic.js`
 
-Uses [The CMU Pronouncing Dictionary][3].
+Ioosas [The CMU Pronouncing Dictionary][3].
 
 
 [1]: https://nodejs.org/en/
