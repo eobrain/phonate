@@ -24,7 +24,7 @@ export function convert(content) {
   let word = ''
   let inWord = false
   for (let i = 0; i < content.length; i++) {
-    if (content[i].match(/[A-Za-z]/)) { // word
+    if (content[i].match(/[A-Za-z']/)) { // word
       // sep -> word
       if (!inWord) {
         result += word
@@ -58,7 +58,7 @@ let inWord = false
 export function onData(buff) {
   const content = buff.toString('utf-8')
   for (let i = 0; i < content.length; i++) {
-    if (content[i].match(/[A-Za-z]/)) { // word
+    if (content[i].match(/[A-Za-z']/)) { // word
       // sep -> word
       if (!inWord) {
         onReadSep(BUFF)
