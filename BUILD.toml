@@ -10,8 +10,8 @@ deps=["english.txt", "inglish.txt"]
 exec="sdiff --width=50 --ignore-all-space $+ || true"
 
 ["udhr-ph.md"]
-deps=["udhr.md", "phonetic.js"]
-exec="node phonate.js <$< >$@"
+deps=["udhr.md", "site/phonetic.js"]
+exec="node convert.js <$< >$@"
 
 ["phonetic.txt"]
 deps=["cmudict-0.7b.txt", "BUILD.toml"]
@@ -99,7 +99,7 @@ exec="wget https://raw.githubusercontent.com/Alexir/CMUdict/master/cmudict-0.7b"
 deps=["cmudict-0.7b"]
 exec="sed 's/\r//g' <$< >$@ "
 
-["phonetic.js"]
+["site/phonetic.js"]
 deps=["phonetic.txt"]
 exec="""
 awk <$< >$@ '
@@ -114,3 +114,6 @@ END {
 }
 '
 """
+
+[clean]
+exec="rm -f site/phonetic.js cmudict-0.7b.txt inglish.txt phonetic.txt udhr-ph.md"

@@ -30,7 +30,7 @@ function onReadSep (sep) {
 // read input and split into lines
 let BUFF = ''
 let inWord = false
-process.stdin.on('data', (buff) => {
+export function onData(buff) {
   const content = buff.toString('utf-8')
   for (let i = 0; i < content.length; i++) {
     if (content[i].match(/[A-Za-z]/)) { // word
@@ -50,10 +50,10 @@ process.stdin.on('data', (buff) => {
     }
     BUFF += content[i]
   }
-})
+}
 
 // flush last line
-process.stdin.on('end', () => {
+export function onEnd(){
   if (BUFF.length > 0) {
     if (inWord) {
       onReadWord(BUFF)
@@ -63,4 +63,6 @@ process.stdin.on('end', () => {
       BUFF = ''
     }
   }
-})
+}
+
+console.log('phonate.js)')
