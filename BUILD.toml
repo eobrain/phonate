@@ -19,60 +19,60 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
-s/ AA0/o/g	    # ɑ~ɒ vowel
-s/ AA1/a/g	    # ɑ~ɒ vowel
-s/ AA2/o/g	    # ɑ~ɒ vowel
-s/ AE[012]/a/g	    # æ vowel 
-s/ AH1 V/ov/g	        # ʌ vowel primary stress initial
-s/ AH0/a/g	        # ʌ vowel no stress
-s/ AH1/u/g	        # ʌ vowel primary stress
-s/ AH2/o/g	        # ʌ vowel secondary stress
-s/ AO0/o/g	        # ɔ vowel no stress
-s/ AO1/aw/g	        # ɔ vowel primary stress
-s/ AO2/a/g	        # ɔ vowel secondary stress
-s/ AW[012]/ou/g	    # aʊ vowel
-s/ AY[012]$/y/g	    # aɪ vowel final
-s/ AY[012]/i/g	    # aɪ vowel not final
-s/ B/b/g	        # b stop
-s/ CH/ch/g	        # tʃ affricate
-s/ DH/th/g	        # ð fricative
-s/ D/d/g	        # d stop
-s/ EH[012]/e/g	    # ɛ vowel
-s/ ER[012]/er/g	    # ɝ vowel
-s/ EY[012]$/ay/g	# eɪ vowel final
-s/ EY[012]/ai/g	    # eɪ vowel not final
-s/ F/f/g	        # f fricative
-s/ G/g/g	        # ɡ stop
-s/ HH/h/g	        # h aspirate
-s/ IH[012]/i/g	    # ɪ vowel
-s/  ([A-Z]) IY1$/ \\\\1y/g	        # i primary stress vowel final
-s/ IY0$/y/g	        # i unstress vowel final
-s/ IY1$/ee/g	        # i primary stress vowel final
-s/ IY[012]/ee/g	    # i vowel not final
-s/ JH/j/g	        # dʒ affricate
-s/ K/c/g	        # k stop
-s/ L/l/g	        # l liquid
-s/ M/m/g	        # m nasal
-s/ NG/ng/g	        # ŋ nasal
-s/ N/n/g	        # n nasal
-s/ OW[012]/o/g	    # oʊ vowel
-s/ OY[012]$/oy/g	# ɔɪ vowel final
-s/ OY[012]/oi/g	    # ɔɪ vowel not final
-s/ P/p/g	        # p stop
-s/ R S/rse/g	    # s cluster
-s/ R/r/g	        # ɹ liquid
-s/ SH/sh/g	        # ʃ fricative
-s/ S/s/g	        # s fricative
-s/ TH/th/g	        # θ fricative
-s/ T/t/g	        # t stop
-s/ UH[012]/u/g	    # ʊ vowel
-s/ UW[012]/oo/g	    # u vowel
-s/ V/v/g	        # v fricative
-s/  W/ w/g	        # w semivowel initial
-s/ W/u/g	        # w semivowel non-initial
-s/ Y/i/g	        # j semivowel
-s/ ZH/s/g	        # ʒ fricative
-s/ Z/s/g	        # z fricative
+s/ AA0/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
+s/ AH1 V/ov/g	            # /ʌ/ short vowel primary stress initial -- STRUT -- son, courage, blood
+s/ AH0/a/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
+s/ AH1/u/g	                # /ʌ/ short vowel primary stress -- STRUT -- son, courage, blood
+s/ AH2/o/g	                # /ʌ/ short vowel secondary stress -- STRUT -- son, courage, blood
+s/ AO0/o/g	                # /ɔ/ long vowel no stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AO1/aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AO2/a/g	                # /ɔ/ long vowel secondary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AW[012]/ou/g	            # /aʊ/ diphthong vowel -- MOUTH -- noun, cow, shower
+s/ AY[012]$/y/g	            # /aɪ/ diphthong vowel final -- PRICE -- try, night, height
+s/ AY[012]/i/g	            # /aɪ/ vowel not final -- PRICE -- try, night, height
+s/ B/b/g	                # /b/ stop
+s/ CH/ch/g	                # /tʃ/ affricate
+s/ DH/th/g	                # /ð/ fricative
+s/ D/d/g	                # /d/ stop
+s/ EH[012]/e/g	            # /ɛ/ short vowel -- DRESS -- bread, many, friend
+s/ ER[012]/er/g	            # /ɝ/ vowel
+s/ EY[012]$/ay/g	        # /eɪ/ diphthong vowel final -- FACE -- say, stain, freight
+s/ EY[012]/ai/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
+s/ F/f/g	                # /f/ fricative
+s/ G/g/g	                # /ɡ/ stop
+s/ HH/h/g	                # /h/ aspirate
+s/ IH[012]/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
+s/  ([A-Z]) IY1$/ \\\\1y/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
+s/ IY1$/ee/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+s/ IY[012]/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
+s/ JH/j/g	                # /dʒ/ affricate
+s/ K/c/g	                # /k/ stop
+s/ L/l/g	                # /l/ liquid
+s/ M/m/g	                # /m/ nasal
+s/ NG/ng/g	                # /ŋ/ nasal
+s/ N/n/g	                # /n/ nasal
+s/ OW[012]/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
+s/ OY[012]$/oy/g	        # /ɔɪ/ vowel final
+s/ OY[012]/oi/g	            # /ɔɪ/ diphthong vowel not final -- CHOICE -- noise, loiter, boy
+s/ P/p/g	                # /p/ stop
+s/ R S/rse/g	            # /s/ cluster
+s/ R/r/g	                # /ɹ/ liquid
+s/ SH/sh/g	                # /ʃ/ fricative
+s/ S/s/g	                # /s/ fricative
+s/ TH/th/g	                # /θ/ fricative
+s/ T/t/g	                # /t/ stop
+s/ UH[012]/u/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
+s/ UW[012]/oo/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
+s/ V/v/g	                # /v/ fricative
+s/  W/ w/g	                # /w/ semivowel initial
+s/ W/u/g	                # /w/ semivowel non-initial
+s/ Y/i/g	                # /j/ semivowel
+s/ ZH/s/g	                # /ʒ/ fricative
+s/ Z/s/g	                # /z/ fricative
 ' 
 """
 
