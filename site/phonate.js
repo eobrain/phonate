@@ -41,6 +41,15 @@ export function convert(content) {
     }
     word += content[i]
   }
+  if (word.length > 0) {
+    if (inWord) {
+      result += matchCase(word, phonetic[word.toUpperCase()] || word)
+      word = ''
+    } else {
+      result += word
+      word = ''
+    }
+  }
   return result
 }
 
