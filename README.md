@@ -15,6 +15,16 @@ Too ecsacioot
    ```
 3. This wil jenerait a fil cawld `phonetic.js`
 
+Too run tha web UI:
+
+1. Instawl live-server
+   ```sh
+   npm install -g live-server
+   ```
+2. Run live-server
+   ```sh
+   (cd site; live-server)
+   ```
 Ioosas [The CMU Pronouncing Dictionary][3].
 
 
