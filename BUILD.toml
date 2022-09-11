@@ -32,7 +32,7 @@ s/ AH1/u/g	                # /ʌ/ short vowel primary stress -- STRUT -- son, co
 s/ AH2/o/g	                # /ʌ/ short vowel secondary stress -- STRUT -- son, courage, blood
 s/ AO0/o/g	                # /ɔ/ long vowel no stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AO1$/aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
-s/  AO1/ aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/  AO1/ o/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AO1/o/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AO2/a/g	                # /ɔ/ long vowel secondary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AW[012]/ou/g	            # /aʊ/ diphthong vowel -- MOUTH -- noun, cow, shower
