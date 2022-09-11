@@ -24,7 +24,6 @@ s/ AA0/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, 
 s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
-s/ AH1 V/of/g	            # /ʌ/ short vowel primary stress initial -- STRUT -- son, courage, blood
 s/  AH0/ a/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
 s/ AH0$/e/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
 s/ AH0/a/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
@@ -50,7 +49,7 @@ s/ F/f/g	                # /f/ fricative
 s/ G/g/g	                # /ɡ/ stop
 s/ HH/h/g	                # /h/ aspirate
 s/ IH[012]/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
-s/  ([A-Z]) IY1$/ \\\\1y/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+s/ IY1$/e/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
 s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
 s/ IY1$/e/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
 s/ IY[012]/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
