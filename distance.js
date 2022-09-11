@@ -3,14 +3,10 @@ import { distance } from 'fastest-levenshtein'
 import nReadlines from 'n-readlines'
 
 const [,, inputPath] = process.argv
-
 const broadbandLines = new nReadlines(inputPath)
 
 let line
-let lineNumber = 1
-
-const maxCost = 0
-const mostExpensiveWord = ''
+const lineNumber = 1
 
 const sorted = []
 
@@ -34,10 +30,10 @@ while (line = broadbandLines.next()) {
 
   totalCount += count
 
-  lineNumber++
-  if (lineNumber > 100000) {
-    break
-  }
+  // lineNumber++
+  // if (lineNumber > 100000) {
+  //  break
+  // }
 }
 
 const averageCost = totalCost / totalCount
