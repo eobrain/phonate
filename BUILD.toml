@@ -20,6 +20,7 @@ sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
 #s/  AA1/ o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ HH W/wh/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA0/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
