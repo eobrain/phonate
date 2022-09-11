@@ -23,7 +23,7 @@ while (line = broadbandLines.next()) {
 
   if(cost>maxCost) {
       maxCost = cost
-      mostExpensiveWord = word
+      mostExpensiveWord = `${word} -> ${phonetic}`
   }
 
   totalCost += cost

@@ -1,5 +1,5 @@
 [all]
-deps=["udhr-ph.md", "metric"]
+deps=["udhr-ph.md", "metric", "distance"]
 
 [metric]
 deps=["english.txt", "inglish.txt"]
@@ -19,16 +19,21 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
+s/  AA1/ o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA0/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
-s/ AH1 V/ov/g	            # /ʌ/ short vowel primary stress initial -- STRUT -- son, courage, blood
+s/ AH1 V/of/g	            # /ʌ/ short vowel primary stress initial -- STRUT -- son, courage, blood
+s/  AH0/ a/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
+s/ AH0$/e/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
 s/ AH0/a/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
 s/ AH1/u/g	                # /ʌ/ short vowel primary stress -- STRUT -- son, courage, blood
 s/ AH2/o/g	                # /ʌ/ short vowel secondary stress -- STRUT -- son, courage, blood
 s/ AO0/o/g	                # /ɔ/ long vowel no stress -- THOUGHT, NORTH, CURE -- water, four, sure
-s/ AO1/aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AO1$/aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/  AO1/ aw/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AO1/o/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AO2/a/g	                # /ɔ/ long vowel secondary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AW[012]/ou/g	            # /aʊ/ diphthong vowel -- MOUTH -- noun, cow, shower
 s/ AY[012]$/y/g	            # /aɪ/ diphthong vowel final -- PRICE -- try, night, height
@@ -47,7 +52,7 @@ s/ HH/h/g	                # /h/ aspirate
 s/ IH[012]/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
 s/  ([A-Z]) IY1$/ \\\\1y/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
 s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
-s/ IY1$/ee/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+s/ IY1$/e/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
 s/ IY[012]/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
 s/ JH/j/g	                # /dʒ/ affricate
 s/ K/c/g	                # /k/ stop
@@ -66,7 +71,9 @@ s/ S/s/g	                # /s/ fricative
 s/ TH/th/g	                # /θ/ fricative
 s/ T/t/g	                # /t/ stop
 s/ UH[012]/u/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
-s/ UW[012]/oo/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
+s/ UW0/oo/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
+s/ UW1/o/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
+s/ UW2/oo/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
 s/ V/v/g	                # /v/ fricative
 s/  W/ w/g	                # /w/ semivowel initial
 s/ W/u/g	                # /w/ semivowel non-initial
@@ -109,7 +116,7 @@ awk <$< >$@ -f phonetic.awk
 exec="wget https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-2022-08-29.txt"
 
 [distance]
-deps=["enwiki-2022-08-29.txt", "distance.js"]
+deps=["enwiki-2022-08-29.txt", "distance.js", "site/phonetic.js", "BUILD.toml"]
 exec="node distance.js $<"
 
 [clean]
