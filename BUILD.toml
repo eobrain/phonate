@@ -48,7 +48,7 @@ s/ EH[012]/e/g	            # /ɛ/ short vowel -- DRESS -- bread, many, friend
 s/ ER[012]/er/g	            # /ɝ/ vowel
 #s/ EY[012]$/ay/g	        # /eɪ/ diphthong vowel final -- FACE -- say, stain, freight
 s/ EY0/ai/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
-s/ EY1/ay/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
+s/ EY1/a/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
 s/ EY2/ai/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
 s/ F/f/g	                # /f/ fricative
 s/ G/g/g	                # /ɡ/ stop
