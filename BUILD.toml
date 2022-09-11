@@ -105,5 +105,12 @@ exec="""
 awk <$< >$@ -f phonetic.awk
 """
 
+["enwiki-2022-08-29.txt"]
+exec="wget https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-2022-08-29.txt"
+
+[distance]
+deps=["enwiki-2022-08-29.txt", "distance.js"]
+exec="node distance.js $<"
+
 [clean]
 exec="rm -f site/phonetic.js cmudict-0.7b.txt inglish.txt phonetic.txt udhr-ph.md"

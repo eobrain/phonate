@@ -18,6 +18,8 @@ function matchCase (pattern, word) {
   return result
 }
 
+export const convertWord = word => matchCase(word, phonetic[word.toUpperCase()] || word)
+
 export function convert (content) {
   let result = ''
   let word = ''
@@ -33,7 +35,7 @@ export function convert (content) {
     } else { // sep
       // sep -> word
       if (inWord) {
-        result += matchCase(word, phonetic[word.toUpperCase()] || word)
+        result += convertWord(word)
         word = ''
         inWord = false
       }
@@ -42,7 +44,7 @@ export function convert (content) {
   }
   if (word.length > 0) {
     if (inWord) {
-      result += matchCase(word, phonetic[word.toUpperCase()] || word)
+      result += convertWord(word)
       word = ''
     } else {
       result += word
