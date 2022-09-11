@@ -1,23 +1,35 @@
 <html>
-    <head>
-        <script type="module" src="index.js"></script>
-        <style>
-            textarea {
-                width: 100%;
-                height: 10em;
-            }
-        </style>
-    </head>
-    <body>
+
+<head>
+    <title>Ingglish</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+    <header>
         <h1>Ingglish</h1>
+    </header>
+    <main>
 
-        <label for="input">Enter sum tecst in standerd speling:</label>
-        <textarea id="inputElement" name="input" autofocus >
+        <form>
+            <label for="input">Enter sum tecst in standerd speling:</label>
+            <textarea id="inputElement" name="input" autofocus>
         </textarea>
+        </form>
 
-        <label for="input">See fanetic speling heer:</label>
-        <textarea id="outputElement" name="output" readonly disabled>
+        <form>
+            <label for="input">See fanetic speling heer:</label>
+            <textarea id="outputElement" name="output" readonly disabled>
         </textarea>
+        </form>
+    </main>
+    <footer>
+        Fawr cod and ecsplanaishans see <a
+            href="https://github.com/eobrain/inglish">GitHub reepo</a>
+    </footer>
+</body>
 
-    </body>
 </html>

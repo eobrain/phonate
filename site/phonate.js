@@ -1,25 +1,24 @@
 import phonetic from './phonetic.js'
 
-function matchCase(pattern, word) {
-    const n = Math.min(pattern.length, word.length)
-    let result = '';
-    let i=0;
-    let isUpper = false
-    for (; i < n; i++) {
-        const p = pattern[i]
-        const w = word[i]
-        isUpper = p.match(/[A-Z]/)
-        result += isUpper ? w.toUpperCase() : w
-    }
-    for (; i < word.length; i++) {
-        const w = word[i]
-        result += isUpper ? w.toUpperCase() : w
-    }
-    return result
+function matchCase (pattern, word) {
+  const n = Math.min(pattern.length, word.length)
+  let result = ''
+  let i = 0
+  let isUpper = false
+  for (; i < n; i++) {
+    const p = pattern[i]
+    const w = word[i]
+    isUpper = p.match(/[A-Z]/)
+    result += isUpper ? w.toUpperCase() : w
+  }
+  for (; i < word.length; i++) {
+    const w = word[i]
+    result += isUpper ? w.toUpperCase() : w
+  }
+  return result
 }
 
-
-export function convert(content) {
+export function convert (content) {
   let result = ''
   let word = ''
   let inWord = false
@@ -64,7 +63,7 @@ function onReadSep (sep) {
 
 let BUFF = ''
 let inWord = false
-export function onData(buff) {
+export function onData (buff) {
   const content = buff.toString('utf-8')
   for (let i = 0; i < content.length; i++) {
     if (content[i].match(/[A-Za-z']/)) { // word
@@ -87,7 +86,7 @@ export function onData(buff) {
 }
 
 // flush last line
-export function onEnd(){
+export function onEnd () {
   if (BUFF.length > 0) {
     if (inWord) {
       onReadWord(BUFF)
@@ -98,6 +97,3 @@ export function onEnd(){
     }
   }
 }
-
-
-console.log('phonate.js)')

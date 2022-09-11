@@ -1,6 +1,6 @@
-import {convert} from './phonate.js'
+import { convert } from './phonate.js'
 
-/* Global: inputElement, outputElement */
+/* global inputElement, outputElement */
 
 async function doIt () {
   outputElement.innerText = convert(inputElement.value)
