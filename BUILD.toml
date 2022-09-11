@@ -27,7 +27,7 @@ s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, 
 s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
 #s/  AH0/ a/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
 #s/ AH0$/e/g	                # /ʌ/ short vowel no stress final -- STRUT -- son, courage, blood
-s/ AH0/a/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
+s/ AH0/o/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
 s/ AH1/e/g	                # /ʌ/ short vowel primary stress -- STRUT -- son, courage, blood
 s/ AH2/o/g	                # /ʌ/ short vowel secondary stress -- STRUT -- son, courage, blood
 s/ AO0/o/g	                # /ɔ/ long vowel no stress -- THOUGHT, NORTH, CURE -- water, four, sure
