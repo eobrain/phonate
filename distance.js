@@ -9,8 +9,10 @@ const broadbandLines = new nReadlines(inputPath)
 let line
 let lineNumber = 1
 
-let maxCost = 0
-let mostExpensiveWord = ''
+const maxCost = 0
+const mostExpensiveWord = ''
+
+const sorted = []
 
 let totalCost = 0
 let totalCount = 0
@@ -19,14 +21,17 @@ while (line = broadbandLines.next()) {
   const count = Number(countString)
   const phonetic = convertWord(word)
   const levenshtein = distance(word, phonetic)
-  const cost = count*levenshtein
 
-  if(cost>maxCost) {
-      maxCost = cost
-      mostExpensiveWord = `${word} -> ${phonetic}`
+  if (levenshtein > 0) {
+    const cost = count * levenshtein
+    sorted.push({ cost, word, phonetic })
+    sorted.sort((a, b) => b.cost - a.cost)
+    if (sorted.length > 10) {
+      sorted.pop()
+    }
+    totalCost += cost
   }
 
-  totalCost += cost
   totalCount += count
 
   lineNumber++
@@ -35,6 +40,6 @@ while (line = broadbandLines.next()) {
   }
 }
 
-
-const averageCost = totalCost/totalCount
-console.log({averageCost}, {mostExpensiveWord})
+const averageCost = totalCost / totalCount
+const mostExpensive = sorted.map(a => `${a.word} -> ${a.phonetic}`)
+console.log({ averageCost }, { mostExpensive })
