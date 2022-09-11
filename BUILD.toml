@@ -20,7 +20,7 @@ sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
 s/ HH W/wh/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
-s/ AA0/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ AA0/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
@@ -39,7 +39,9 @@ s/ CH/ch/g	                # /tʃ/ affricate
 s/ DH/th/g	                # /ð/ fricative
 s/ D/d/g	                # /d/ stop
 s/ EH[012]/e/g	            # /ɛ/ short vowel -- DRESS -- bread, many, friend
-s/ ER[012]/er/g	            # /ɝ/ vowel
+s/ ER0/er/g	            # /ɝ/ vowel
+s/ ER1/er/g	            # /ɝ/ vowel
+s/ ER2/er/g	            # /ɝ/ vowel
 s/ EY0/ai/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
 s/ EY1/a/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
 s/ EY2/ai/g	            # /eɪ/ diphthong vowel not final -- FACE -- say, stain, freight
