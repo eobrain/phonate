@@ -56,17 +56,21 @@ s/ HH/h/g	                # /h/ aspirate
 s/ IH0/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
 s/ IH1/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
 s/ IH2/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
-s/ IY1$/e/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
-s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
-s/ IY1$/e/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
-s/ IY[012]/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
+#s/ IY1$/e/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+#s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
+#s/ IY1$/e/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
+s/ IY0/y/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
+s/ IY1/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
+s/ IY2/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
 s/ JH/j/g	                # /dʒ/ affricate
 s/ K/c/g	                # /k/ stop
 s/ L/l/g	                # /l/ liquid
 s/ M/m/g	                # /m/ nasal
 s/ NG/ng/g	                # /ŋ/ nasal
 s/ N/n/g	                # /n/ nasal
-s/ OW[012]/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
+s/ OW0/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
+s/ OW1/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
+s/ OW2/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
 s/ OY[012]$/oy/g	        # /ɔɪ/ vowel final
 s/ OY[012]/oi/g	            # /ɔɪ/ diphthong vowel not final -- CHOICE -- noise, loiter, boy
 s/ P/p/g	                # /p/ stop
