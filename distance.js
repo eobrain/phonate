@@ -26,7 +26,7 @@ while (line = broadbandLines.next()) {
     const cost = count * levenshtein
     sorted.push({ cost, word, phonetic })
     sorted.sort((a, b) => b.cost - a.cost)
-    if (sorted.length > 10) {
+    if (sorted.length > 50) {
       sorted.pop()
     }
     totalCost += cost
