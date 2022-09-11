@@ -56,9 +56,6 @@ s/ HH/h/g	                # /h/ aspirate
 s/ IH0/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
 s/ IH1/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
 s/ IH2/i/g	            # /ɪ/ short vowel -- KIT -- myth, pretty, women
-#s/ IY1$/e/g	# /i/ long vowel primary stress final -- FLEECE -- sea, people, police
-#s/ IY0$/y/g	                # /i/ long vowel unstress final -- FLEECE -- sea, people, police
-#s/ IY1$/e/g	            # /i/ long vowel primary stress final -- FLEECE -- sea, people, police
 s/ IY0/y/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
 s/ IY1/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
 s/ IY2/ee/g	            # /i/ long vowel not final -- FLEECE -- sea, people, police
