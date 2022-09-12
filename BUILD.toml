@@ -19,7 +19,7 @@ exec="""
 sed <$< >$@ '
 /;;;.*$/d
 /^[^A-Z]/d
-s/ HH W/wh/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ HH W/wh/g	            # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA0/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
@@ -63,10 +63,8 @@ s/ N/n/g	                # /n/ nasal
 s/ OW0/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
 s/ OW1/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
 s/ OW2/o/g	            # /oʊ/ diphthong vowel -- GOAT -- slow, toe, mauve
-s/ OY[012]$/oy/g	        # /ɔɪ/ vowel final
 s/ OY[012]/oi/g	            # /ɔɪ/ diphthong vowel not final -- CHOICE -- noise, loiter, boy
 s/ P/p/g	                # /p/ stop
-s/ R S/rse/g	            # /s/ cluster
 s/ R/r/g	                # /ɹ/ liquid
 s/ SH/sh/g	                # /ʃ/ fricative
 s/ S/s/g	                # /s/ fricative
