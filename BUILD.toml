@@ -76,7 +76,9 @@ s/ SH/sh/g	                # /ʃ/ fricative
 s/ S/s/g	                # /s/ fricative
 s/ TH/th/g	                # /θ/ fricative
 s/ T/t/g	                # /t/ stop
-s/ UH[012]/u/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
+s/ UH0/u/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
+s/ UH1/oo/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
+s/ UH2/u/g	            # /ʊ/ short vowel -- FOOT -- took, good, put
 s/ UW0/u/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
 s/ UW1/u/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
 s/ UW2/u/g	            # /u/ long vowel -- GOOSE -- new, due, tuna
