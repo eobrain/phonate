@@ -4,46 +4,46 @@ Have you ever wondered what English would look like if its spelling was actually
 
 | Fonym | Speling | Igsampol standerd | Igsampol Fonetic | Tip |
 |---|---|---|---|---|
-| HH W | wh |
 | AA /ɑ/~/ɒ/ | a (unstressed), o | BATH, PALM, START, fast, half, car | BATH, POLM, STORT, fast, haf, cor | long vouol |
 | AE /æ/ | a | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouol |
-| AH /ʌ/ | e (primary stress), o | STRUT, son, courage, blood | STRET, sen, cerij, bled | short vouol |
-| AO /ɔ/ | o | THOUGHT, NORTH, CURE, water, four, sure | THOT, NORTH, CYOOR, woter, for, shoor | long vouol |
-| AW /aʊ/ | ow (secondary stress), ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | difthong vouol |
-| AY /aɪ/ | i | PRICE, try, night, height | PRIS, tri, nit, hit | vouol |
-| B /b/ | b | | | stop |
-| CH /tʃ/ | ch | | | afrocot |
-| DH /ð/ | th | | | fricative |
-| D /d/ | d | | | stop |
-| EH /ɛ/ | e | DRESS, bread, many, friend | DRES, bred, meny, frend | short vouol |
-| ER /ɝ/ | er | | | vouol |
 | EY /eɪ/ | a (primary stress), ai | FACE, say, stain, freight | FAS, sa, stan, frat | difthong vouol |
+| B /b/ | b | | | stop |
+| K /k/ | c | | | stop |
+| CH /tʃ/ | ch | | | afrocot |
+| D /d/ | d | | | stop |
+| AH /ʌ/ | e (primary stress), o | STRUT, son, courage, blood | STRET, sen, cerij, bled | short vouol |
+| EH /ɛ/ | e | DRESS, bread, many, friend | DRES, bred, meny, frend | short vouol |
+| IY /i/ | y (unstressed), ee | FLEECE, sea, people, police | FLEES, see, peepol, polees |
+| ER /ɝ/ | er | | | vouol |
 | F /f/ | f | | | fricative |
 | G /ɡ/ | g | | | stop |
 | HH /h/ | h | | | asperait |
+| AY /aɪ/ | i | PRICE, try, night, height | PRIS, tri, nit, hit | vouol |
 | IH /ɪ/ | i | KIT, myth, pretty, women | CIT, mith, prity, wimon | short vouol |
-| IY /i/ | y (unstressed), ee | FLEECE, sea, people, police | FLEES, see, peepol, polees |
 | JH /dʒ/ | j | | | afrocot |
-| K /k/ | c | | | stop |
 | L /l/ | l | | | licwid |
 | M /m/ | m | | | nasol |
-| NG /ŋ/ | ng | | | nasol |
 | N /n/ | n | | | nasol |
+| NG /ŋ/ | ng | | | nasol |
+| AO /ɔ/ | o | THOUGHT, NORTH, CURE, water, four, sure | THOT, NORTH, CYOOR, woter, for, shoor | long vouol |
 | OW /oʊ/ | o | GOAT, slow, toe, mauve | GOT, slo, to, mov | difthong vouol |
+| UH /ʊ/ | oo (primary stress), u | FOOT, took, good, put | FOOT, tooc, good, poot | short vouol |
+| AW /aʊ/ | ow (secondary stress), ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | difthong vouol |
 | OY /ɔɪ/ | oy (unstressed), oi | CHOICE, noise, loiter, boy | CHOIS, nois, loiter, boi | difthong vouol |
 | P /p/ | p | | | stop |
 | R /ɹ/ | r | | | licwid |
-| SH /ʃ/ | sh | | | fricative |
 | S /s/ | s | | | fricative |
+| ZH /ʒ/ | s | | | fricative |
+| Z /z/ | s | | | fricative |
+| SH /ʃ/ | sh | | | fricative |
+| T /t/ | t | | | stop |
+| DH /ð/ | th | | | fricative |
 | TH /θ/ | th | | | fricative |
-| T /p/ | /t/ | | | stop |
-| UH /ʊ/ | oo (primary stress), u | FOOT, took, good, put | FOOT, tooc, good, poot | short vouol |
 | UW /u/ | u | GOOSE, new, due, tuna | GUS, nu, du, tuno | long vouol |
 | V /v/ | v | | | fricative |
 | W /w/ | w | | | semi-vouol |
+| HH W | wh |
 | Y /j/ | y | | | semi-vouol |
-| ZH /ʒ/ | s | | | fricative |
-| Z /z/ | s | | | fricative |
 
 ## Rening the softwer
 
