@@ -1,23 +1,25 @@
 # Inglish
 
-Jenerait fanetic dicshanery.
+Jenerait fonetic dicshonery.
 
+To ecsocyut
 Too ecsacioot
 
-1. Instawl [node][1] (fawr igsampal by instawling [nvm][2] and ecsaciooting `nvm use stable`)
-1. Instawl bajel
+1. Instol [node][1] (for igsampol bi instoling [nvm][2] and ecsocyuting `nvm use stable`)
+2. Instol bajel
    ```sh
    npm install -g bajel
    ```
-2. In this derectery ecsacioot
+3. In this directery ecsocyut
    ```sh
+   npm install
    bajel
    ```
-3. This wil jenerait a fil cawld `phonetic.js`
+4. This wil jenerait a fil cold `phonetic.js` with a maping frem standerd Inglish speling to fonetic speling. It then rens an ivalyuashon to see hou clos the tu spelings or to eech ether, meserd bi Levenshtein distons watid bi hou ofton the werd ocers in Inglish.
 
-Too run tha web UI:
+To ren the web yuser interfais:
 
-1. Instawl live-server
+1. Instol live-server
    ```sh
    npm install -g live-server
    ```
@@ -25,8 +27,7 @@ Too run tha web UI:
    ```sh
    (cd site; live-server)
    ```
-Ioosas [The CMU Pronouncing Dictionary][3].
-
+   Yusos [The CMU Pronouncing Dictionary][3].
 
 [1]: https://nodejs.org/en/
 [2]: https://github.com/nvm-sh/nvm
