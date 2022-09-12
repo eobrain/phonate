@@ -21,7 +21,7 @@ sed <$< >$@ '
 /^[^A-Z]/d
 s/ HH W/wh/g	            # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA0/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
-s/ AA1/a/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
+s/ AA1/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AA2/o/g	                # /ɑ/~/ɒ/ long vowel -- BATH, PALM, START -- fast, half, car
 s/ AE[012]/a/g	            # /æ/ short vowel -- TRAP, BATH -- cat, fast, pass
 s/ AH0/o/g	                # /ʌ/ short vowel no stress -- STRUT -- son, courage, blood
@@ -29,7 +29,7 @@ s/ AH1/e/g	                # /ʌ/ short vowel primary stress -- STRUT -- son, co
 s/ AH2/o/g	                # /ʌ/ short vowel secondary stress -- STRUT -- son, courage, blood
 s/ AO0/o/g	                # /ɔ/ long vowel no stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AO1/o/g	                # /ɔ/ long vowel primary stress -- THOUGHT, NORTH, CURE -- water, four, sure
-s/ AO2/a/g	                # /ɔ/ long vowel secondary stress -- THOUGHT, NORTH, CURE -- water, four, sure
+s/ AO2/o/g	                # /ɔ/ long vowel secondary stress -- THOUGHT, NORTH, CURE -- water, four, sure
 s/ AW[012]/ou/g	            # /aʊ/ diphthong vowel -- MOUTH -- noun, cow, shower
 s/ AY0/i/g	            # /aɪ/ vowel not final -- PRICE -- try, night, height
 s/ AY1/i/g	            # /aɪ/ vowel not final -- PRICE -- try, night, height
