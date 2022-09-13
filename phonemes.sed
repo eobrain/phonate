@@ -5,12 +5,12 @@ s/ DH/th/g
 s/ TH/th/g
 s/ AA[012]/aa/g
 s/ AE[012]/a/g
-s/ EY[012]/ai/g
+s/ EY[012]/ei/g
 s/ K/c/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
-s/ AH[012]/o/g
+s/ AH[012]/e/g
 s/ EH[012]/eh/g
 s/ IY[012]/ee/g
 s/ ER[012]/er/g
@@ -24,9 +24,9 @@ s/ L/l/g
 s/ M/m/g
 s/ NG/ng/g
 s/ N/n/g
-s/ AO[012]/ou/g
+s/ AO[012]/o/g
 s/ OW[012]/oh/g
-s/ UH[012]/u/g
+s/ UH[012]/uh/g
 s/ AW[012]/ou/g
 s/ OY[012]/oi/g
 s/ P/p/g
@@ -36,7 +36,7 @@ s/ S/s/g
 s/ ZH/s/g
 s/ Z/s/g
 s/ T/t/g
-s/ UW[012]/u/g
+s/ UW[012]/oo/g
 s/ V/v/g
 s/ W/w/g
 s/ Y/y/g

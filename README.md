@@ -6,12 +6,12 @@ Have you ever wondered what English would look like if its spelling was actually
 |---|---|---|---|---|
 | AA /ɑ/~/ɒ/ | aa | BATH, PALM, START, fast, half, car | BATH, POLM, STORT, fast, haf, cor | long vouol |
 | AE /æ/ | a | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouol |
-| EY /eɪ/ | ai | FACE, say, stain, freight | FAS, sa, stan, frat | difthong vouol |
+| EY /eɪ/ | ei | FACE, say, stain, freight | FAS, sa, stan, frat | difthong vouol |
 | B /b/ | b | | | stop |
 | K /k/ | c | | | stop |
 | CH /tʃ/ | ch | | | afrocot |
 | D /d/ | d | | | stop |
-| AH /ʌ/ | o | STRUT, son, courage, blood | STRET, sen, cerij, bled | short vouol |
+| AH /ʌ/ | e | STRUT, son, courage, blood | STRET, sen, cerij, bled | short vouol |
 | EH /ɛ/ | eh | DRESS, bread, many, friend | DRES, bred, meny, frend | short vouol |
 | IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepol, polees |
 | ER /ɝ/ | er | | | vouol |
@@ -25,9 +25,9 @@ Have you ever wondered what English would look like if its spelling was actually
 | M /m/ | m | | | nasol |
 | N /n/ | n | | | nasol |
 | NG /ŋ/ | ng | | | nasol |
-| AO /ɔ/ | ou | THOUGHT, NORTH, CURE, water, four, sure | THOT, NORTH, CYOOR, woter, for, shoor | long vouol |
+| AO /ɔ/ | o | THOUGHT, NORTH, CURE, water, four, sure | THOT, NORTH, CYOOR, woter, for, shoor | long vouol |
 | OW /oʊ/ | oh | GOAT, slow, toe, mauve | GOT, slo, to, mov | difthong vouol |
-| UH /ʊ/ | u | FOOT, took, good, put | FOOT, tooc, good, poot | short vouol |
+| UH /ʊ/ | uh | FOOT, took, good, put | FOOT, tooc, good, poot | short vouol |
 | AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | difthong vouol |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, nois, loiter, boi | difthong vouol |
 | P /p/ | p | | | stop |
@@ -39,7 +39,7 @@ Have you ever wondered what English would look like if its spelling was actually
 | T /t/ | t | | | stop |
 | DH /ð/ | th | | | fricative |
 | TH /θ/ | th | | | fricative |
-| UW /u/ | o | GOOSE, new, due, tuna | GUS, nu, du, tuno | long vouol |
+| UW /u/ | oo | GOOSE, new, due, tuna | GUS, nu, du, tuno | long vouol |
 | V /v/ | v | | | fricative |
 | W /w/ | w | | | semi-vouol |
 | HH W | wh |
