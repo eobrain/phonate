@@ -1,4 +1,4 @@
-# Inglish
+# Ihnglihsh
 
 Hav yoo ehver wenderd whet Ihnglihsh wuhd luhc leic ihf ihts spehlihng waaz acchlee fenehtihc? Thihs ihz an etehmpt too doo soh bei mapihng eech fohneem ev Ihnglihsh too e fihcst lehter, ecordihng too the faalohihng mapihng:
 
