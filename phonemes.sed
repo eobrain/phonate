@@ -5,7 +5,7 @@ s/ DH/th/g
 s/ TH/th/g
 s/ AA[012]/aa/g
 s/ AE[012]/a/g
-s/ EY[012]/ei/g
+s/ EY[012]/ey/g
 s/ K/c/g
 s/ B/b/g
 s/ CH/ch/g
@@ -33,8 +33,8 @@ s/ P/p/g
 s/ R/r/g
 s/ SH/sh/g
 s/ S/s/g
-s/ ZH/s/g
-s/ Z/s/g
+s/ ZH/zh/g
+s/ Z/z/g
 s/ T/t/g
 s/ UW[012]/oo/g
 s/ V/v/g

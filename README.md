@@ -1,80 +1,79 @@
 # Inglish
 
-Have you ever wondered what English would look like if its spelling was actually phonetic? This is an attempt to do so by mapping each phoneme of English to a fixed letter, according to the following mapping:
+Hav yoo ehver wenderd whet Ihnglihsh wuhd luhc leic ihf ihts spehlihng waaz acchlee fenehtihc? Thihs ihz an etehmpt too doo soh bei mapihng eech fohneem ev Ihnglihsh too e fihcst lehter, ecordihng too the faalohihng mapihng:
 
-| Fonym | Speling | Igsampol standerd | Igsampol Fonetic | Tip |
+| Fohneem | Spehlihng | Ihgzampel, standerd | Ihgzampel, fenehtihc | Teip |
 |---|---|---|---|---|
-| AE /æ/ | a | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouol |
-| AA /ɑ/~/ɒ/ | aa | BATH, PALM, START, fast, half, car | BATH, POLM, STORT, fast, haf, cor | long vouol |
-| B /b/ | b | | | stop |
-| K /k/ | c | | | stop |
-| CH /tʃ/ | ch | | | afrocot |
-| D /d/ | d | | | stop |
-| AH /ʌ/ | e | STRUT, son, courage, blood | STRET, sen, cerij, bled | short vouol |
-| IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepol, polees |
-| EH /ɛ/ | eh | DRESS, bread, many, friend | DRES, bred, meny, frend | short vouol |
-| AY /aɪ/ | ei | PRICE, try, night, height | PRIS, tri, nit, hit | vouol |
-| EY /eɪ/ | ey | FACE, say, stain, freight | FAS, sa, stan, frat | difthong vouol |
+| AE /æ/ | a | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | long vouel |
+| B /b/ | b | | | staap |
+| K /k/ | c | | | staap |
+| CH /tʃ/ | ch | | | afrecet |
+| D /d/ | d | | | staap |
+| AH /ʌ/ | e | STRUT, son, courage, blood | STRET, sen, cerihj, bled | short vouel |
+| IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepel, pelees |
+| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | short vouel |
+| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vouol |
+| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | dihfthong vouel |
 | ER /ɝ/ | er | | | vouol |
 | F /f/ | f | | | fricative |
-| G /ɡ/ | g | | | stop |
-| HH /h/ | h | | | asperait |
-| IH /ɪ/ | ih | KIT, myth, pretty, women | CIT, mith, prity, wimon | short vouol |
-| JH /dʒ/ | j | | | afrocot |
-| L /l/ | l | | | licwid |
-| M /m/ | m | | | nasol |
-| N /n/ | n | | | nasol |
-| NG /ŋ/ | ng | | | nasol |
-| AO /ɔ/ | o | THOUGHT, NORTH, CURE, water, four, sure | THOT, NORTH, CYOOR, woter, for, shoor | long vouol |
-| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, nois, loiter, boi | difthong vouol |
-| OW /oʊ/ | oh | GOAT, slow, toe, mauve | GOT, slo, to, mov | difthong vouol |
-| UW /u/ | oo | GOOSE, new, due, tuna | GUS, nu, du, tuno | long vouol |
-| AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | difthong vouol |
-| UH /ʊ/ | uh | FOOT, took, good, put | FOOT, tooc, good, poot | short vouol |
-| P /p/ | p | | | stop |
-| R /ɹ/ | r | | | licwid |
+| G /ɡ/ | g | | | staap |
+| HH /h/ | h | | | aspereyt |
+| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmen | short vouel |
+| JH /dʒ/ | j | | | afrecet |
+| L /l/ | l | | | lihcwed |
+| M /m/ | m | | | neyzel |
+| N /n/ | n | | | neyzel |
+| NG /ŋ/ | ng | | | neyzel |
+| AO /ɔ/ | o | THOUGHT, NORTH, water, four | THOT, NORTH, woter, for | long vouel |
+| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | dihfthong vouel |
+| OW /oʊ/ | oh | GOAT, slow, toe | GOHT, sloh, toh | dihfthong vouel |
+| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toon | long vouel |
+| AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | dihfthong vouel |
+| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | short vouel |
+| P /p/ | p | | | staap |
+| R /ɹ/ | r | | | lihcwed |
 | S /s/ | s | | | fricative |
 | ZH /ʒ/ | s | | | fricative |
 | Z /z/ | s | | | fricative |
 | SH /ʃ/ | sh | | | fricative |
-| T /t/ | t | | | stop |
+| T /t/ | t | | | staap |
 | DH /ð/ | th | | | fricative |
 | TH /θ/ | th | | | fricative |
 | V /v/ | v | | | fricative |
-| W /w/ | w | | | semi-vouol |
+| W /w/ | w | | | sehmei-vouol |
 | HH W | wh |
-| Y /j/ | y | | | semi-vouol |
+| Y /j/ | y | | | sehmei-vouol |
 
-## Rening the softwer
+## Renihng the softwehr
 
-Jenerait fonetic dicshonery.
+Jehnereyt fenehtihc dihcshenehree.
 
-To ecsocyut
-Too ecsacioot
+Too ehcsecyoot
 
-1. Instol [node][1] (for igsampol bi instoling [nvm][2] and ecsocyuting `nvm use stable`)
-2. Instol bajel
+1. Ihnstol [node][1] (for ihgzampel bei ihnstolihng [nvm][2] and ehcsecyootihng `nvm use stable`)
+2. Ihnstol bajel
    ```sh
    npm install -g bajel
    ```
-3. In this directery ecsocyut
+3. Ihn thihs derehcteree ehcsecyoot
    ```sh
    npm install
    bajel
    ```
-4. This wil jenerait a fil cold `phonetic.js` with a maping frem standerd Inglish speling to fonetic speling. It then rens an ivalyuashon to see hou clos the tu spelings or to eech ether, meserd bi Levenshtein distons watid bi hou ofton the werd ocers in Inglish.
+4. Thihs wihl jehnereyt e feil cold `phonetic.js` wihth e mapihng frem standerd Ihnglihsh spehlihng too fenehtihc spehlihng. Iht thehn renz an eevalyooeyshen too see hou clohs the too spelings aar too eech ether, mehzherd bei Levenshtein dihstens weytihd bei hou often the werd ecerz ihn Ihnglihsh.
 
-To ren the web yuser interfais:
+Too ren the wehb yoozer ihnterfeys:
 
-1. Instol live-server
+1. Ihnstol live-server
    ```sh
    npm install -g live-server
    ```
-2. Run live-server
+2. Ren live-server
    ```sh
    (cd site; live-server)
    ```
-   Yusos [The CMU Pronouncing Dictionary][3].
+   Yoosez [The CMU Pronouncing Dictionary][3].
 
 
 [1]: https://nodejs.org/en/
