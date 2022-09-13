@@ -18,7 +18,7 @@ s/ F/f/g
 s/ G/g/g
 s/ HH/h/g
 s/ AY[012]/ei/g
-s/ IH[012]/i/g
+s/ IH[012]/ih/g
 s/ JH/j/g
 s/ L/l/g
 s/ M/m/g
