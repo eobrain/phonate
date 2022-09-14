@@ -1,42 +1,42 @@
 
 # Ihnglihsh
 
-Hahv yoo ehver wenderd whet Ihnglihsh wuhd luhc leic ihf
-ihts spehlihng waaz ahcchlee fenehtihc.
-Thihs ihz ahn etehmpt too doo soh bei mahpihng eech fohneem
-ev Ihnglihsh too e fihcst seht ev lehterz, ecardihng too the faalohihng mahpihng.
+Hahv yoo ehver wunderd whut Ihnglihsh wuhd luhc leic ihf
+ihts spehlihng waaz ahcchlee funehtihc.
+Thihs ihz ahn utehmpt too doo sow bei mahpihng eech fowneem
+uv Ihnglihsh too u fihcst seht uv lehterz, ucourdihng too thu faalowihng mahpihng.
 
-| Fohneem | Spehlihng | Ihgzahmpel, stahnderd | Ihgzahmpel, fenehtihc | Teip |
+| Fowneem | Spehlihng | Ihgzahmpul, stahnderd | Ihgzahmpul, funehtihc | Teip |
 |---|---|---|---|---| 
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAHP, BAHTH, caht, fahst, pahs | shart vouel  |
-| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | lang vouel  |
+| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAHP, BAHTH, caht, fahst, pahs | shourt vouul  |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | loung vouul  |
 | B /b/ | b | | | staap  |
 | K /k/ | c | | | staap  |
-| CH /tʃ/ | ch | | | ahfrecet  |
+| CH /tʃ/ | ch | | | ahfrucut  |
 | D /d/ | d | | | staap  |
-| AH /ʌ/ | e | STRUT, son, courage, blood | STRET, sen, cerihj, bled | shart vouel  |
-| IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepel, pelees  |
-| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | shart vouel  |
-| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vouel  |
-| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | dihfthang vouel  |
+| AH /ʌ/ | u | STRUT, son, blood | STRUT, sun, blud | shourt vouul  |
+| IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepul, pulees  |
+| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | shourt vouul  |
+| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vouul  |
+| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | dihfthoung vouul  |
 | ER /ɝ/ | er | | | vouol |
 | F /f/ | f | | | fricative |
 | G /ɡ/ | g | | | staap  |
 | HH /h/ | h | | | aspereyt |
-| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmen | shart vouel  |
-| JH /dʒ/ | j | | | ahfrecet  |
-| L /l/ | l | | | lihcwed  |
-| M /m/ | m | | | neyzel  |
-| N /n/ | n | | | neyzel  |
-| NG /ŋ/ | ng | | | neyzel  |
-| AO /ɔ/ | a | THOUGHT, NORTH, water, four | THAT, NARTH, water, far | lang vouel  |
-| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | dihfthang vouel  |
-| OW /oʊ/ | oh | GOAT, slow, toe | GOHT, sloh, toh | dihfthang vouel  |
-| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toone | lang vouel  |
-| AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | dihfthang vouel  |
-| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | shart vouel  |
+| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmun | shourt vouul  |
+| JH /dʒ/ | j | | | ahfrucut  |
+| L /l/ | l | | | lihcwud  |
+| M /m/ | m | | | neyzul  |
+| N /n/ | n | | | neyzul  |
+| NG /ŋ/ | ng | | | neyzul  |
+| AO /ɔ/ | ou | THOUGHT, NORTH, water, four | THOUT, NOURTH, wouter, four | loung vouul  |
+| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | dihfthoung vouul  |
+| OW /oʊ/ | oh | GOAT, slow, toe | GOWT, slow, tow | dihfthoung vouul  |
+| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toonu | loung vouul  |
+| AW /aʊ/ | ow | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | dihfthoung vouul  |
+| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | shourt vouul  |
 | P /p/ | p | | | staap  |
-| R /ɹ/ | r | | | lihcwed  |
+| R /ɹ/ | r | | | lihcwud  |
 | S /s/ | s | | | fricative |
 | ZH /ʒ/ | s | | | fricative |
 | Z /z/ | s | | | fricative |
@@ -45,17 +45,17 @@ ev Ihnglihsh too e fihcst seht ev lehterz, ecardihng too the faalohihng mahpihng
 | DH /ð/ | th | | | fricative |
 | TH /θ/ | th | | | fricative |
 | V /v/ | v | | | fricative |
-| W /w/ | w | | |  sehmei-vouel  |
+| W /w/ | w | | |  sehmei-vouul  |
 | HH W | wh |
-| Y /j/ | y | | |  sehmei-vouel  |
- ## Renihng the Saftwehr
+| Y /j/ | y | | |  sehmei-vouul  |
+ ## Runihng thu Souftwehr
 
-Jehnereyt fenehtihc dihcshenehree.
+Jehnereyt funehtihc dihcshunehree.
 
-Too ehcsecyoot
+Too ehcsucyoot
 
-1. Ihnstal [node][1] (far ihgzahmpel bei ihnstalihng [nvm][2] end ehcsecyootihng `nvm use stable` )
-2. Ihnstal  bajel
+1. Ihnstoul [node][1] (four ihgzahmpul bei ihnstoulihng [nvm][2] und ehcsucyootihng `nvm use stable` )
+2. Ihnstoul  bajel
    ```sh
    npm install -g bajel
    ```
@@ -64,11 +64,11 @@ Too ehcsecyoot
    npm install
    bajel
    ```
-4.  Thihs wihl jehnereyt e feil cald  `phonetic.js`  wihth e mahpihng frem stahnderd Ihnggelihsh spehlihng tp fenehtihc spehlihng. Iht thehn renz ahn eevahlyooeyshen too see hou clohs the too spehlihngz aar too eech ether, mehzherd bei Levenshtein dihstens weytihd bei hou aften the werd ecerz ihn Ihnglihsh.
+4.  Thihs wihl jehnereyt u feil could  `phonetic.js`  wihth u mahpihng frem stahnderd Ihnggulihsh spehlihng tp funehtihc spehlihng. Iht thehn runz ahn eevahlyooeyshun too see hou clows thu too spehlihngz aar too eech uther, mehzherd bei Levenshtein dihstuns weytihd bei hou ouftun thu werd ucerz ihn Ihnglihsh.
 
-Too ren the wehb yoozer ihnterfeys:
+Too run thu wehb yoozer ihnterfeys:
 
-1. Ihnstal live-server
+1. Ihnstoul live-server
    ```sh
    npm install -g live-server
    ```
@@ -76,7 +76,7 @@ Too ren the wehb yoozer ihnterfeys:
    ```sh
    (cd site; live-server)
    ```
-    Yoosez [The SEEEHMYOO Prenounsihng Dihcshenehree][3].
+    Yoosuz [Thu SEEEHMYOO Prunounsihng Dihcshunehree][3].
  
 [1]: https://nodejs.org/en/
 [2]: https://github.com/nvm-sh/nvm

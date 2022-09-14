@@ -2,7 +2,7 @@
 deps=["udhr-ph.md", "README.md", "metric", "distance"]
 
 ["README.md"]
-deps=["make-readme.js"]
+deps=["make-readme.js", "site/phonetic.js"]
 exec="node $< >$@"
 
 [metric]

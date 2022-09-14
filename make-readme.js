@@ -17,7 +17,7 @@ of English to a fixed set of letters, according to the following mapping.
 | K /k/ | c | | |`, ph`stop`,` |
 | CH /tʃ/ | ch | | |`, ph`affricate`,` |
 | D /d/ | d | | |`, ph`stop`,` |
-| AH /ʌ/ | e | STRUT, son, courage, blood |`, ph`STRUT, son, courage, blood | short vowel`,` |
+| AH /ʌ/ | u | STRUT, son, blood |`, ph`STRUT, son, blood | short vowel`,` |
 | IY /i/ | ee | FLEECE, sea, people, police |`, ph`FLEECE, sea, people, police`,` |
 | EH /ɛ/ | eh | DRESS, bread, many, friend |`, ph`DRESS, bread, many, friend | short vowel`,` |
 | AY /aɪ/ | ei | PRICE, try, night, height |`, ph`PRICE, try, night, height | vowel`,` |
@@ -32,11 +32,11 @@ of English to a fixed set of letters, according to the following mapping.
 | M /m/ | m | | |`, ph`nasal`,` |
 | N /n/ | n | | |`, ph`nasal`,` |
 | NG /ŋ/ | ng | | |`, ph`nasal`,` |
-| AO /ɔ/ | a | THOUGHT, NORTH, water, four |`, ph`THOUGHT, NORTH, water, four | long vowel`,` |
+| AO /ɔ/ | ou | THOUGHT, NORTH, water, four |`, ph`THOUGHT, NORTH, water, four | long vowel`,` |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy |`, ph`CHOICE, noise, loiter, boy | diphthong vowel`,` |
 | OW /oʊ/ | oh | GOAT, slow, toe |`, ph`GOAT, slow, toe | diphthong vowel`,` |
 | UW /u/ | oo | GOOSE, new, due, tuna |`, ph`GOOSE, new, due, tuna | long vowel`,` |
-| AW /aʊ/ | ou | MOUTH, noun, cow, shower |`, ph`MOUTH, noun, cow, shower | diphthong vowel`,` |
+| AW /aʊ/ | ow | MOUTH, noun, cow, shower |`, ph`MOUTH, noun, cow, shower | diphthong vowel`,` |
 | UH /ʊ/ | uh | FOOT, took, good, put |`, ph`FOOT, took, good, put | short vowel`,` |
 | P /p/ | p | | |`, ph`stop`,` |
 | R /ɹ/ | r | | |`, ph`liquid`,` |
