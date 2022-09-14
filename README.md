@@ -4,7 +4,7 @@ Hav yoo ehver wenderd whet Ihnglihsh wuhd luhc leic ihf ihts spehlihng waaz acch
 
 | Fohneem | Spehlihng | Ihgzampel, standerd | Ihgzampel, fenehtihc | Teip |
 |---|---|---|---|---|
-| AE /æ/ | a | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouel |
+| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAP, BATH, cat, fast, pas | short vouel |
 | AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | long vouel |
 | B /b/ | b | | | staap |
 | K /k/ | c | | | staap |
@@ -25,7 +25,7 @@ Hav yoo ehver wenderd whet Ihnglihsh wuhd luhc leic ihf ihts spehlihng waaz acch
 | M /m/ | m | | | neyzel |
 | N /n/ | n | | | neyzel |
 | NG /ŋ/ | ng | | | neyzel |
-| AO /ɔ/ | o | THOUGHT, NORTH, water, four | THOT, NORTH, woter, for | long vouel |
+| AO /ɔ/ | a | THOUGHT, NORTH, water, four | THOT, NORTH, woter, for | long vouel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | dihfthong vouel |
 | OW /oʊ/ | oh | GOAT, slow, toe | GOHT, sloh, toh | dihfthong vouel |
 | UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toon | long vouel |

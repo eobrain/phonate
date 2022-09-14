@@ -4,7 +4,7 @@ s/ HH W/wh/g
 s/ DH/th/g
 s/ TH/th/g
 s/ AA[012]/aa/g
-s/ AE[012]/a/g
+s/ AE[012]/ah/g
 s/ EY[012]/ey/g
 s/ K/c/g
 s/ B/b/g
@@ -24,7 +24,7 @@ s/ L/l/g
 s/ M/m/g
 s/ NG/ng/g
 s/ N/n/g
-s/ AO[012]/o/g
+s/ AO[012]/a/g
 s/ OW[012]/oh/g
 s/ UH[012]/uh/g
 s/ AW[012]/ou/g

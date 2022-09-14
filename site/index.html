@@ -1,34 +1,47 @@
 <html>
-
-<head>
+  <head>
     <title>Ihnglihsh</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="index.js"></script>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-</head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Ihnglihsh</h1>
+      <h1>
+        <ruby>English<rt>Ihnglihsh</rt></ruby>
+      </h1>
     </header>
     <main>
+      <form>
+        <label for="input">
+          <ruby>
+            Ehnter sem tehcst ihn stahnderd spehlihng:
+            <rt>Ehnter sem tehcst ihn standerd spehlihng:</rt>
+          </ruby>
+        </label>
+        <textarea id="inputElement" name="input" autofocus> </textarea>
+      </form>
 
-        <form>
-            <label for="input">Ehnter sem tehcst ihn standerd spehlihng:</label>
-            <textarea id="inputElement" name="input" autofocus>
+      <form>
+        <label for="input">
+          <ruby>
+            See phonetic spelling here:
+            <rt>See fenehtihc spehlihng heer:</rt>
+          </ruby>
+        </label>
+        <textarea id="outputElement" name="output" readonly disabled>
         </textarea>
-        </form>
-
-        <form>
-            <label for="input">See fenehtihc spehlihng heer:</label>
-            <textarea id="outputElement" name="output" readonly disabled>
-        </textarea>
-        </form>
+      </form>
     </main>
     <footer>
-        For cohd and ehcspleneyshenz see <a href="https://github.com/eobrain/inglish">GitHub reepoh.</a>
-    </footer>
-</body>
+      <ruby>
+        For code and explanations see <a href="https://github.com/eobrain/inglish">GitHub repo.</a>
+        <rt>Far cohd end ehcspleneyshenz see GihTheb reepoh.</rt>
+      </ruby>
 
+      
+    </footer>
+  </body>
 </html>
