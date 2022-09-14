@@ -54,6 +54,12 @@ export function convert (content) {
   return result
 }
 
+
+export function ph(strings) {
+  return strings.map(convert).join("");
+}
+
+
 function onReadWord (word) {
   const ph = matchCase(word, phonetic[word.toUpperCase()] || word)
   process.stdout.write(ph)
