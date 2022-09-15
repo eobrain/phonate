@@ -4,6 +4,8 @@ console.log(
   ph`
 # English
 
+This code is deployed at `,`https://spehl.tech/`,ph`
+
 Have you ever wondered what English would look like if
 its spelling was actually phonetic.
 This is an attempt to do so by mapping each phoneme

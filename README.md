@@ -1,6 +1,8 @@
 
 # Ihnglihsh
 
+Thihs cowd ihz dihploid aht  https://spehl.tech/ 
+
 Hahv yoo ehver wunderd whut Ihnglihsh wuhd luhc leic ihf
 ihts spehlihng waaz ahcchlee funehtihc.
 Thihs ihz ahn utehmpt too doo sow bei mahpihng eech fowneem
