@@ -1,6 +1,9 @@
 [all]
 deps=["udhr-ph.md", "README.md", "metric", "distance"]
 
+[website]
+deps=["site/phonetic.js"]
+
 ["README.md"]
 deps=["make-readme.js", "site/phonetic.js"]
 exec="node $< >$@"

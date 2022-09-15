@@ -1,5 +1,5 @@
 {
-  "name": "inglish",
+  "name": "phonate",
   "type": "module",
   "version": "1.0.0",
   "description": "Phonetic English",
@@ -9,16 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eobrain/inglish.git"
+    "url": "git+https://github.com/eobrain/phonate.git"
   },
   "author": "Eamonn O'Brien-Strain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eobrain/inglish/issues"
+    "url": "https://github.com/eobrain/phonate/issues"
   },
-  "homepage": "https://github.com/eobrain/inglish#readme",
+  "homepage": "https://github.com/eobrain/phonate#readme",
   "dependencies": {
     "fastest-levenshtein": "^1.0.16",
     "n-readlines": "^1.0.1"
+  },
+  "devDependencies": {
+    "bajel": "^1.1.0"
   }
 }
