@@ -1,47 +1,51 @@
-<html>
-  <head>
-    <title>Ihnglihsh</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="index.js"></script>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-    <header>
-      <h1>
-        <ruby>English<rt>Ihnglihsh</rt></ruby>
-      </h1>
-    </header>
-    <main>
-      <form>
-        <label for="input">
-          <ruby>
-            Enter some text in standard spelling:
-            <rt>Ehnter sem tehcst ihn standerd spehlihng:</rt>
-          </ruby>
-        </label>
-        <textarea id="inputElement" name="input" autofocus> </textarea>
-      </form>
+<head>
+  <title>Ihnglihsh</title>
+  <meta name="description"
+    content="Online form to convert English text to phonetic form.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="module" src="index.js"></script>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
 
-      <form>
-        <label for="input">
-          <ruby>
-            See phonetic spelling here:
-            <rt>See funehtihc spehlihng heer:</rt>
-          </ruby>
-        </label>
-        <textarea id="outputElement" name="output" readonly disabled>
+<body>
+  <header>
+    <h1>
+      <ruby>English<rt>Ihnglihsh</rt></ruby>
+    </h1>
+  </header>
+  <main>
+    <form>
+      <label for="input">
+        <ruby>
+          Enter text:
+          <rt>Ehnter tehcst:</rt>
+        </ruby>
+      </label>
+      <textarea id="inputElement" name="input" autofocus> </textarea>
+    </form>
+
+    <form>
+      <label for="output">
+        <ruby>
+          See phonetics:
+          <rt>See funehtihcs:</rt>
+        </ruby>
+      </label>
+      <textarea id="outputElement" name="output" readonly disabled>
         </textarea>
-      </form>
-    </main>
-    <footer>
-      <ruby>
-        For code and explanations see <a href="https://github.com/eobrain/phonate">GitHub repo.</a>
-        <rt>Four cowd und ehcspluneyshunz see GihThub reepow.</rt>
-      </ruby>
+    </form>
+  </main>
+  <footer>
+    <ruby>
+      <a href="https://github.com/eobrain/phonate">Code and explanations</a>
+      <rt>Cowd und ehcspluneyshunz</rt>
+    </ruby>
+  </footer>
+</body>
 
-      
-    </footer>
-  </body>
 </html>
