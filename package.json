@@ -1,9 +1,10 @@
 {
   "name": "phonate",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Phonetic English",
   "main": "phonate.js",
+  "files": ["phonetic.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
