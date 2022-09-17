@@ -1,4 +1,4 @@
-import { ph } from "./site/phonate.js";
+import { ph } from "./phonate.js";
 
 console.log(
   ph`

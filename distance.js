@@ -1,4 +1,4 @@
-import { convertWord } from './site/phonate.js'
+import { convertWord } from './phonate.js'
 import { distance } from 'fastest-levenshtein'
 import nReadlines from 'n-readlines'
 

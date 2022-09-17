@@ -1,11 +1,8 @@
 [all]
 deps=["udhr-ph.md", "README.md", "metric", "distance"]
 
-[website]
-deps=["site/phonetic.js"]
-
 ["README.md"]
-deps=["make-readme.js", "site/phonetic.js"]
+deps=["make-readme.js", "phonetic.js"]
 exec="node $< >$@"
 
 [metric]
@@ -17,7 +14,7 @@ deps=["english.txt", "inglish.txt"]
 exec="sdiff --width=50 --ignore-all-space $+ || true"
 
 ["udhr-ph.md"]
-deps=["udhr.md", "site/phonetic.js"]
+deps=["udhr.md", "phonetic.js"]
 exec="node convert.js <$< >$@"
 
 ["phonetic.txt"]
@@ -49,7 +46,7 @@ exec="wget https://raw.githubusercontent.com/Alexir/CMUdict/master/cmudict-0.7b"
 deps=["cmudict-0.7b"]
 exec="sed 's/\r//g' <$< >$@ "
 
-["site/phonetic.js"]
+["phonetic.js"]
 deps=["phonetic.txt", "make-phonetic.js"]
 exec="""
 node make-phonetic.js $< >$@
@@ -59,8 +56,8 @@ node make-phonetic.js $< >$@
 exec="wget https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-2022-08-29.txt"
 
 [distance]
-deps=["enwiki-2022-08-29.txt", "distance.js", "site/phonetic.js", "BUILD.toml"]
+deps=["enwiki-2022-08-29.txt", "distance.js", "phonetic.js", "BUILD.toml"]
 exec="node distance.js $<"
 
 [clean]
-exec="rm -f site/phonetic.js cmudict-0.7b.txt inglish.txt phonetic.txt udhr-ph.md"
+exec="rm -f phonetic.js cmudict-0.7b.txt inglish.txt phonetic.txt udhr-ph.md"
