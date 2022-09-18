@@ -4,7 +4,8 @@ console.log(
   ph`
 # English
 
-This code is deployed at `,`https://spehl.tech/`,ph`
+See `,`https://github.com/eobrain/spehl`,ph`
+For an example of a project that uses this library.
 
 Have you ever wondered what English would look like if
 its spelling was actually phonetic.
@@ -54,7 +55,20 @@ of English to a fixed set of letters, according to the following mapping.
 | HH W | wh |
 | Y /j/ | y | | | `, ph`semi-vowel`, ` |
 `,
-ph`## Running the Software
+ph`
+## Using the library
+
+In a JavaScript module loaded from a web page use`,`
+\`\`\`js
+import { convert } from 'https://cdn.jsdelivr.net/npm/phonate/phonate.js'
+\`\`\`
+`,ph`
+In a NodeJS JavaScript module use`,`
+\`\`\`js
+import {convert} from "phonate"
+\`\`\`
+`,ph`
+## Running the Software
 
 Generate phonetic dictionary.
 
@@ -72,17 +86,8 @@ To execute
    \`\`\`
 4. `,ph`This will generate a file called `,`\`phonetic.js\``,ph` with a mapping frem standard Inglish spelling tp phonetic spelling. It then runs an evaluation to see how close the two spellings are to each other, measured by Levenshtein distance weighted by how often the word occurs in English.
 
-Too run the web user interface:
 
-1. Install`,`live-server
-   \`\`\`sh
-   npm install -g live-server
-   \`\`\`
-2. `,ph`Ren`,`live-server
-   \`\`\`sh
-   (cd site; live-server)
-   \`\`\`
-   `,ph`Uses [The CMU Pronouncing Dictionary][3].
+`,ph`Uses [The CMU Pronouncing Dictionary][3].
 `,`
 [1]: https://nodejs.org/en/
 [2]: https://github.com/nvm-sh/nvm

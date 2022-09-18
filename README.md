@@ -1,7 +1,8 @@
 
 # Ihnglihsh
 
-Thihs cowd ihz dihploid aht  https://spehl.tech/ 
+See  https://github.com/eobrain/spehl 
+Four ahn ihgzahmpul uv u praajehct thaht yoosuz thihs leibrehree.
 
 Hahv yoo ehver wunderd whut Ihnglihsh wuhd luhc leic ihf
 ihts spehlihng waaz ahcchlee funehtihc.
@@ -50,7 +51,20 @@ uv Ihnglihsh too u fihcst seht uv lehterz, ucourdihng too thu faalowihng mahpihn
 | W /w/ | w | | |  sehmei-vouul  |
 | HH W | wh |
 | Y /j/ | y | | |  sehmei-vouul  |
- ## Runihng thu Souftwehr
+ 
+## Yoozihng thu leibrehree
+
+Ihn u JaavUscrihpt moujool lowdud frum u wehb peyj yoos 
+```js
+import { convert } from 'https://cdn.jsdelivr.net/npm/phonate/phonate.js'
+```
+ 
+Ihn u NodeJS JaavUscrihpt moujool yoos 
+```js
+import {convert} from "phonate"
+```
+ 
+## Runihng thu Souftwehr
 
 Jehnereyt funehtihc dihcshunehree.
 
@@ -68,17 +82,8 @@ Too ehcsucyoot
    ```
 4.  Thihs wihl jehnereyt u feil could  `phonetic.js`  wihth u mahpihng frem stahnderd Ihnggulihsh spehlihng tp funehtihc spehlihng. Iht thehn runz ahn eevahlyooeyshun too see hou clows thu too spehlihngz aar too eech uther, mehzherd bei Levenshtein dihstuns weytihd bei hou ouftun thu werd ucerz ihn Ihnglihsh.
 
-Too run thu wehb yoozer ihnterfeys:
 
-1. Ihnstoul live-server
-   ```sh
-   npm install -g live-server
-   ```
-2.  Rehn live-server
-   ```sh
-   (cd site; live-server)
-   ```
-    Yoosuz [Thu SEEEHMYOO Prunounsihng Dihcshunehree][3].
+ Yoosuz [Thu SEEEHMYOO Prunounsihng Dihcshunehree][3].
  
 [1]: https://nodejs.org/en/
 [2]: https://github.com/nvm-sh/nvm
