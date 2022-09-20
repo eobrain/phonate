@@ -1,89 +1,89 @@
 
-# Ihnglihsh
+# English
 
-See  https://github.com/eobrain/spehl 
-Four ahn ihgzahmpul uv u praajehct thaht yoosuz thihs leibrehree.
+See https://github.com/eobrain/spehl
+For an example of a project that uses this library.
 
-Hahv yoo ehver wunderd whut Ihnglihsh wuhd luhc leic ihf
-ihts spehlihng waaz ahcchlee funehtihc.
-Thihs ihz ahn utehmpt too doo sow bei mahpihng eech fowneem
-uv Ihnglihsh too u fihcst seht uv lehterz, ucourdihng too thu faalowihng mahpihng.
+Have you ever wondered what English would look like if
+its spelling was actually phonetic.
+This is an attempt to do so by mapping each phoneme
+of English to a fixed set of letters, according to the following mapping.
 
-| Fowneem | Spehlihng | Ihgzahmpul, stahnderd | Ihgzahmpul, funehtihc | Teip |
-|---|---|---|---|---| 
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAHP, BAHTH, caht, fahst, pahs | shourt vouul  |
-| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | loung vouul  |
-| B /b/ | b | | | staap  |
-| K /k/ | c | | | staap  |
-| CH /tʃ/ | ch | | | ahfrucut  |
-| D /d/ | d | | | staap  |
-| AH /ʌ/ | u | STRUT, son, blood | STRUT, sun, blud | shourt vouul  |
+| Phoneme | Spelling | Example, standard | Example, phonetic | Type |
+|---|---|---|---|---|
+| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAHP, BAHTH, caht, fahst, pahs | short vowel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | long vowel |
+| B /b/ | b | baboon | buboon | stop |
+| K /k/ | c | cat | caht | stop |
+| CH /tʃ/ | ch | cheetah | cheetu | ahfrucut  |
+| D /d/ | d | deer | dihr | stop |
+| AH /ʌ/ | u | STRUT, son, blood | STRUT, sun, blud | short vowel |
 | IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepul, pulees  |
-| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | shourt vouul  |
-| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vouul  |
-| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | dihfthoung vouul  |
-| ER /ɝ/ | er | | | vouol |
-| F /f/ | f | | | fricative |
-| G /ɡ/ | g | | | staap  |
-| HH /h/ | h | | | aspereyt |
-| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmun | shourt vouul  |
-| JH /dʒ/ | j | | | ahfrucut  |
-| L /l/ | l | | | lihcwud  |
-| M /m/ | m | | | neyzul  |
-| N /n/ | n | | | neyzul  |
-| NG /ŋ/ | ng | | | neyzul  |
-| AO /ɔ/ | ou | THOUGHT, NORTH, water, four | THOUT, NOURTH, wouter, four | loung vouul  |
-| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | dihfthoung vouul  |
-| OW /oʊ/ | oh | GOAT, slow, toe | GOWT, slow, tow | dihfthoung vouul  |
-| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toonu | loung vouul  |
-| AW /aʊ/ | ow | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | dihfthoung vouul  |
-| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | shourt vouul  |
-| P /p/ | p | | | staap  |
-| R /ɹ/ | r | | | lihcwud  |
-| S /s/ | s | | | fricative |
-| ZH /ʒ/ | s | | | fricative |
-| Z /z/ | s | | | fricative |
-| SH /ʃ/ | sh | | | fricative |
-| T /t/ | t | | | staap  |
-| DH /ð/ | th | | | fricative |
-| TH /θ/ | th | | | fricative |
-| V /v/ | v | | | fricative |
-| W /w/ | w | | |  sehmei-vouul  |
-| HH W | wh |
-| Y /j/ | y | | |  sehmei-vouul  |
+| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | short vowel |
+| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vowel |
+| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | diphthong vowel |
+| ER /ɝ/ | er | urchin | erchun | |
+| F /f/ | f | flamingo | flumihnggow | fricative |
+| G /ɡ/ | g | gazelle | guzehl | stop |
+| HH /h/ | h | hippopotamus | hihpupaatumus | aspirate |
+| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmun | short vowel |
+| JH /dʒ/ | j | jackal | jahcul | affricate |
+| L /l/ | l | lion | leiun | liquid |
+| M /m/ | m | monkey | mungcee | nasal |
+| N /n/ | n | gnat | naht | nasal |
+| NG /ŋ/ | ng | anchor | ahngcer | nasal |
+| AO /ɔ/ | ou | THOUGHT, NORTH, water, four | THOUT, NOURTH, wouter, four | long vowel |
+| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | diphthong vowel |
+| OW /oʊ/ | oh | GOAT, slow, toe | GOWT, slow, tow | diphthong vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toonu | long vowel |
+| AW /aʊ/ | ow | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | diphthong vowel |
+| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | short vowel |
+| P /p/ | p | penguin | pehnggwun | stop |
+| R /ɹ/ | r | rhinoceros | reinaaserus | liquid |
+| S /s/ | s | sloth | slowth | fricative |
+| ZH /ʒ/ | zh | genre | zhaanru | fricative |
+| Z /z/ | z | zebra | zeebru | fricative |
+| SH /ʃ/ | sh | sheep | sheep | fricative |
+| T /t/ | t | tiger | teiger | stop |
+| DH /ð/ | th | this | thihs | fricative |
+| TH /θ/ | th | thrush | thrush | fricative |
+| V /v/ | v | vulture | vulcher | fricative |
+| W /w/ | w | walrus | woulrus | semi-vowel |
+| HH W | wh | wheat | wheet |
+| Y /j/ | y | yak | yahc | semi-vowel |
  
-## Yoozihng thu leibrehree
+## Using the library
 
-Ihn u JaavUscrihpt moujool lowdud frum u wehb peyj yoos 
+In a JavaScript module loaded from a web page use 
 ```js
 import { convert } from 'https://cdn.jsdelivr.net/npm/phonate/phonate.js'
 ```
  
-Ihn u NodeJS JaavUscrihpt moujool yoos 
+In a NodeJS JavaScript module use 
 ```js
 import {convert} from "phonate"
 ```
  
-## Runihng thu Souftwehr
+## Running the Software
 
-Jehnereyt funehtihc dihcshunehree.
+Generate phonetic dictionary.
 
-Too ehcsucyoot
+To execute
 
-1. Ihnstoul [node][1] (four ihgzahmpul bei ihnstoulihng [nvm][2] und ehcsucyootihng `nvm use stable` )
-2. Ihnstoul  bajel
+1. `cd` to the directory containing this README.md file.
+1. Install [node][1] (for example by installing [nvm][2] and executing `nvm use` )
+2. Install dependencies
    ```sh
-   npm install -g bajel
+   npm install
    ```
 3. In this directory execute
    ```sh
-   npm install
-   bajel
+   npx bajel
    ```
-4.  Thihs wihl jehnereyt u feil could  `phonetic.js`  wihth u mahpihng frem stahnderd Ihnggulihsh spehlihng tp funehtihc spehlihng. Iht thehn runz ahn eevahlyooeyshun too see hou clows thu too spehlihngz aar too eech uther, mehzherd bei Levenshtein dihstuns weytihd bei hou ouftun thu werd ucerz ihn Ihnglihsh.
+4.  This will generate a file called  `phonetic.js`  with a mapping frem standard Inglish spelling tp phonetic spelling. It then runs an evaluation to see how close the two spellings are to each other, measured by Levenshtein distance weighted by how often the word occurs in English.
 
 
- Yoosuz [Thu SEEEHMYOO Prunounsihng Dihcshunehree][3].
+Uses [The CMU Pronouncing Dictionary][3].
  
 [1]: https://nodejs.org/en/
 [2]: https://github.com/nvm-sh/nvm
