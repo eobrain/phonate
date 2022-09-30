@@ -11,46 +11,46 @@ of English to a fixed set of letters, according to the following mapping.
 
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRAHP, BAHTH, caht, fahst, pahs | short vowel |
-| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PAAM, STAART, caar | long vowel |
-| B /b/ | b | baboon | buboon | stop |
-| K /k/ | c | cat | caht | stop |
-| CH /tʃ/ | ch | cheetah | cheetu | ahfrucut  |
-| D /d/ | d | deer | dihr | stop |
-| AH /ʌ/ | u | STRUT, son, blood | STRUT, sun, blud | short vowel |
-| IY /i/ | ee | FLEECE, sea, people, police | FLEES, see, peepul, pulees  |
-| EH /ɛ/ | eh | DRESS, bread, many, friend | DREHS, brehd, mehnee, frehnd | short vowel |
-| AY /aɪ/ | ei | PRICE, try, night, height | PREIS, trei, neit, heit | vowel |
-| EY /eɪ/ | ey | FACE, say, stain, freight | FEYS, sey, steyn, freyt | diphthong vowel |
-| ER /ɝ/ | er | urchin | erchun | |
-| F /f/ | f | flamingo | flumihnggow | fricative |
-| G /ɡ/ | g | gazelle | guzehl | stop |
-| HH /h/ | h | hippopotamus | hihpupaatumus | aspirate |
-| IH /ɪ/ | ih | KIT, myth, pretty, women | CIHT, mihth, prihtee, wihmun | short vowel |
-| JH /dʒ/ | j | jackal | jahcul | affricate |
-| L /l/ | l | lion | leiun | liquid |
-| M /m/ | m | monkey | mungcee | nasal |
-| N /n/ | n | gnat | naht | nasal |
-| NG /ŋ/ | ng | anchor | ahngcer | nasal |
-| AO /ɔ/ | ou | THOUGHT, NORTH, water, four | THOUT, NOURTH, wouter, four | long vowel |
-| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | diphthong vowel |
-| OW /oʊ/ | oh | GOAT, slow, toe | GOWT, slow, tow | diphthong vowel |
-| UW /u/ | oo | GOOSE, new, due, tuna | GOOS, noo, doo, toonu | long vowel |
-| AW /aʊ/ | ow | MOUTH, noun, cow, shower | MOUTH, noun, cou, shouer | diphthong vowel |
-| UH /ʊ/ | uh | FOOT, took, good, put | FUHT, tuhc, guhd, puht | short vowel |
-| P /p/ | p | penguin | pehnggwun | stop |
-| R /ɹ/ | r | rhinoceros | reinaaserus | liquid |
-| S /s/ | s | sloth | slowth | fricative |
-| ZH /ʒ/ | zh | genre | zhaanru | fricative |
-| Z /z/ | z | zebra | zeebru | fricative |
-| SH /ʃ/ | sh | sheep | sheep | fricative |
-| T /t/ | t | tiger | teiger | stop |
+| AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TRÁHP, BÁHTH, cáht, fáhst, páhs | short vowel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car | PÁALM, STÁART, cáar | long vowel |
+| B /b/ | b | baboon | bubóon | stop |
+| K /k/ | c | cat | cáht | stop |
+| CH /tʃ/ | ch | cheetah | chéetu | áhfrucut  |
+| D /d/ | d | deer | díhr | stop |
+| AH /ʌ/ | u | STRUT, son, blood | STRÚT, sún, blúd | short vowel |
+| IY /i/ | ee | FLEECE, sea, people, police | FLÉES, sée, péepul, pulées  |
+| EH /ɛ/ | eh | DRESS, bread, many, friend | DRÉHS, bréhd, méhnee, fréhnd | short vowel |
+| AY /aɪ/ | ei | PRICE, try, night, height | PRÉIS, tréi, néit, héit | vowel |
+| EY /eɪ/ | ey | FACE, say, stain, freight | FÉYS, séy, stéyn, fréyt | diphthong vowel |
+| ER /ɝ/ | er | urchin | érchun | |
+| F /f/ | f | flamingo | flumíhnggow | fricative |
+| G /ɡ/ | g | gazelle | guzéhl | stop |
+| HH /h/ | h | hippopotamus | hìhpupáatumus | aspirate |
+| IH /ɪ/ | ih | KIT, myth, pretty, women | CÍHT, míhth, príhtee, wíhmun | short vowel |
+| JH /dʒ/ | j | jackal | jáhcul | affricate |
+| L /l/ | l | lion | léiun | liquid |
+| M /m/ | m | monkey | múngcee | nasal |
+| N /n/ | n | gnat | náht | nasal |
+| NG /ŋ/ | ng | anchor | áhngcer | nasal |
+| AO /ɔ/ | ou | THOUGHT, NORTH, water, four | THÓUT, NÓURTH, wóuter, fóur | long vowel |
+| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHÓIS, nóiz, lóiter, bói | diphthong vowel |
+| OW /oʊ/ | oh | GOAT, slow, toe | GÓWT, slów, tów | diphthong vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna | GÓOS, nóo, dóo, tóonu | long vowel |
+| AW /aʊ/ | ow | MOUTH, noun, cow, shower | MÓUTH, nóun, cóu, shóuer | diphthong vowel |
+| UH /ʊ/ | uh | FOOT, took, good, put | FÚHT, túhc, gúhd, púht | short vowel |
+| P /p/ | p | penguin | péhnggwun | stop |
+| R /ɹ/ | r | rhinoceros | reináaserus | liquid |
+| S /s/ | s | sloth | slówth | fricative |
+| ZH /ʒ/ | zh | genre | zháanru | fricative |
+| Z /z/ | z | zebra | zéebru | fricative |
+| SH /ʃ/ | sh | sheep | shéep | fricative |
+| T /t/ | t | tiger | téiger | stop |
 | DH /ð/ | th | this | thihs | fricative |
-| TH /θ/ | th | thrush | thrush | fricative |
-| V /v/ | v | vulture | vulcher | fricative |
-| W /w/ | w | walrus | woulrus | semi-vowel |
-| HH W | wh | wheat | wheet |
-| Y /j/ | y | yak | yahc | semi-vowel |
+| TH /θ/ | th | thrush | thrúsh | fricative |
+| V /v/ | v | vulture | vúlcher | fricative |
+| W /w/ | w | walrus | wóulrus | semi-vowel |
+| HH W | wh | wheat | wéet |
+| Y /j/ | y | yak | yáhc | semi-vowel |
  
 ## Using the library
 

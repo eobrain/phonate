@@ -1,5 +1,7 @@
 /;;;.*$/d
 /^[^A-Z]/d
+s/ ..1/'&/g
+s/ ..2/`&/g
 s/ HH W/wh/g
 s/ DH/th/g
 s/ TH/th/g
@@ -40,3 +42,13 @@ s/ UW[012]/oo/g
 s/ V/v/g
 s/ W/w/g
 s/ Y/y/g
+s/'a/á/g
+s/`a/à/g
+s/'e/é/g
+s/`e/è/g
+s/'i/í/g
+s/`i/ì/g
+s/'o/ó/g
+s/`o/ò/g
+s/'u/ú/g
+s/`u/ù/g
