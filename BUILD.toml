@@ -14,7 +14,7 @@ deps=["english.txt", "inglish.txt"]
 exec="sdiff --width=50 --ignore-all-space $+ || true"
 
 ["udhr-ph.md"]
-deps=["udhr.md", "phonetic.js"]
+deps=["udhr.md", "convert.js", "phonate.js", "phonetic.js"]
 exec="node convert.js <$< >$@"
 
 ["phonetic.txt"]
