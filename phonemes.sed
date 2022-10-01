@@ -1,36 +1,48 @@
 /;;;.*$/d
 /^[^A-Z]/d
-s/ ..1/'&/g
-s/ ..2/`&/g
 s/ HH W/wh/g
 s/ DH/th/g
 s/ TH/th/g
-s/ AA[012]/aa/g
-s/ AE[012]/ah/g
-s/ EY[012]/ey/g
+s/ AA1/a̲a̲/g
+s/ AA[02]/aa/g
+s/ AE1/a̲h̲/g
+s/ AE[02]/ah/g
+s/ EY1/e̲y̲/g
+s/ EY[02]/ey/g
 s/ K/c/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
-s/ AH[012]/u/g
-s/ EH[012]/eh/g
-s/ IY[012]/ee/g
-s/ ER[012]/er/g
+s/ AH1/u̲/g
+s/ AH[02]/u/g
+s/ EH1/e̲h̲/g
+s/ EH[02]/eh/g
+s/ IY1/e̲e̲/g
+s/ IY[02]/ee/g
+s/ ER1/e̲r̲/g
+s/ ER[02]/er/g
 s/ F/f/g
 s/ G/g/g
 s/ HH/h/g
-s/ AY[012]/ei/g
-s/ IH[012]/ih/g
+s/ AY1/e̲i̲/g
+s/ AY[02]/ei/g
+s/ IH1/i̲h̲/g
+s/ IH[02]/ih/g
 s/ JH/j/g
 s/ L/l/g
 s/ M/m/g
 s/ NG/ng/g
 s/ N/n/g
-s/ AO[012]/ou/g
-s/ OW[012]/ow/g
-s/ UH[012]/uh/g
-s/ AW[012]/ou/g
-s/ OY[012]/oi/g
+s/ AO1/o̲u̲/g
+s/ AO[02]/ou/g
+s/ OW1/o̲w̲/g
+s/ OW[02]/ow/g
+s/ UH1/u̲h̲/g
+s/ UH[02]/uh/g
+s/ AW1/o̲u̲/g
+s/ AW[02]/ou/g
+s/ OY1/o̲i̲/g
+s/ OY[02]/oi/g
 s/ P/p/g
 s/ R/r/g
 s/ SH/sh/g
@@ -38,17 +50,8 @@ s/ S/s/g
 s/ ZH/zh/g
 s/ Z/z/g
 s/ T/t/g
-s/ UW[012]/oo/g
+s/ UW1/o̲o̲/g
+s/ UW[02]/oo/g
 s/ V/v/g
 s/ W/w/g
 s/ Y/y/g
-s/'a/á/g
-s/`a/à/g
-s/'e/é/g
-s/`e/è/g
-s/'i/í/g
-s/`i/ì/g
-s/'o/ó/g
-s/`o/ò/g
-s/'u/ú/g
-s/`u/ù/g
