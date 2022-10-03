@@ -1,20 +1,23 @@
-import {convert} from "../phonate.js"
-//import {convert} from "https://cdn.jsdelivr.net/npm/phonate/phonate.js"
+import { convert, convertWord } from '../phonate.js'
+// import {convert} from "https://cdn.jsdelivr.net/npm/phonate/phonate.js"
 
-
-import test from 'ava';
+import test from 'ava'
 
 test('basic', t => {
- 	t.is(convert("spell English"), "spehl Ihnglihsh");
-});
+  t.is(convert('spell English'), 'sp-eh-l Ih-nglihsh')
+})
 
 test('case', t => {
-    t.is(convert("spell"), "spehl");
-    t.is(convert("Spell"), "Spehl");
-    t.is(convert("SPELL"), "SPEHL");
-    t.is(convert("speLL"), "speHL");
-});
+  t.is(convert('spell'), 'sp-eh-l')
+  t.is(convert('Spell'), 'Sp-eh-l')
+  t.is(convert('SPELL'), 'SP-EH-L')
+  t.is(convert('speLL'), 'sp-EH-L')
+})
+
+test('convertWord', t => {
+  t.is(convertWord('in'), 'ihn')
+})
 
 test('not a word', t => {
-    t.is(convert("thisIsNotAWord"), "thisIsNotAWord");
-});
+  t.is(convert('thisIsNotAWord'), 'thisIsNotAWord')
+})

@@ -1,12 +1,13 @@
-import nReadlines from 'n-readlines'
 import { distance } from 'fastest-levenshtein'
+import nReadlines from 'n-readlines'
+const Readlines = nReadlines
 
 const [,, inputPath] = process.argv
-const phoneticLines = new nReadlines(inputPath)
+const phoneticLines = new Readlines(inputPath)
 
 const result = {}
 let line
-while (line = phoneticLines.next()) {
+while ((line = phoneticLines.next()) !== false) {
   const [word, phonetic] = line.toString('utf8').split(' ')
   const baseWord = word.replace(/^(.*)\([1-9]\)$/, '$1')
   if (baseWord in result) {
