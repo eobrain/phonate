@@ -8,7 +8,7 @@
     "phonetic.js"
   ],
   "scripts": {
-    "test": "ava"
+    "test": "standard && ava"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,18 @@
     "url": "https://github.com/eobrain/phonate/issues"
   },
   "homepage": "https://github.com/eobrain/phonate#readme",
+  "standard": {
+    "ignore": [
+      "/phonetic.js"
+    ]
+  },
   "dependencies": {
     "fastest-levenshtein": "^1.0.16",
     "n-readlines": "^1.0.1"
   },
   "devDependencies": {
     "ava": "^4.3.3",
-    "bajel": "^1.1.0"
+    "bajel": "^1.1.0",
+    "standard": "^17.0.0"
   }
 }
