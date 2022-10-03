@@ -1,18 +1,17 @@
 import { convertWord } from './phonate.js'
 import { distance } from 'fastest-levenshtein'
 import nReadlines from 'n-readlines'
+const Readlines = nReadlines
 
 const [,, inputPath] = process.argv
-const broadbandLines = new nReadlines(inputPath)
+const broadbandLines = new Readlines(inputPath)
 
 let line
-const lineNumber = 1
-
 const sorted = []
 
 let totalCost = 0
 let totalCount = 0
-while (line = broadbandLines.next()) {
+while ((line = broadbandLines.next()) !== false) {
   const [word, countString] = line.toString('utf8').split(' ')
   const count = Number(countString)
   const phonetic = convertWord(word)
