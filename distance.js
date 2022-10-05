@@ -15,7 +15,7 @@ while ((line = broadbandLines.next()) !== false) {
   const [word, countString] = line.toString('utf8').split(' ')
   const count = Number(countString)
   const phonetic = convertWord(word)
-  const levenshtein = distance(word, phonetic)
+  const levenshtein = distance(word, phonetic.replaceAll('-', ''))
 
   if (levenshtein > 0) {
     const cost = count * levenshtein
