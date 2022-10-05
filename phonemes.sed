@@ -3,8 +3,8 @@
 s/ HH W/wh/g
 s/ DH/th/g
 s/ TH/th/g
-s/ AA1/-o-/g
-s/ AA[02]/o/g
+s/ AA1/-a-/g
+s/ AA[02]/a/g
 s/ AE1/-ah-/g
 s/ AE[02]/ah/g
 s/ EY1/-ai-/g

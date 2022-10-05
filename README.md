@@ -12,7 +12,7 @@ of English to a fixed set of letters, according to the following mapping.
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
 | AE /æ/ | ah | TRAP, BATH, cat, fast, pass | TR-AH-P, B-AH-TH, c-ah-t, f-ah-st, p-ah-s | short vowel |
-| AA /ɑ/~/ɒ/ | o | PALM, START, car | P-O-M, ST-O-RT, c-o-r | long vowel |
+| AA /ɑ/~/ɒ/ | o | PALM, START, car | P-A-M, ST-A-RT, c-a-r | long vowel |
 | B /b/ | b | baboon | bub-oo-n | stop |
 | K /k/ | c | cat | c-ah-t | stop |
 | CH /tʃ/ | ch | cheetah | ch-ee-tu | ah-frucut  |
@@ -25,7 +25,7 @@ of English to a fixed set of letters, according to the following mapping.
 | ER /ɝ/ | er | urchin | er-chun | |
 | F /f/ | f | flamingo | flum-i-nggow | fricative |
 | G /ɡ/ | g | gazelle | guz-e-l | stop |
-| HH /h/ | h | hippopotamus | hipup-o-tumus | aspirate |
+| HH /h/ | h | hippopotamus | hipup-a-tumus | aspirate |
 | IH /ɪ/ | i | KIT, myth, pretty, women | C-I-T, m-i-th, pr-i-tee, w-i-mun | short vowel |
 | JH /dʒ/ | j | jackal | j-ah-cul | affricate |
 | L /l/ | l | lion | l-iy-un | liquid |
@@ -39,9 +39,9 @@ of English to a fixed set of letters, according to the following mapping.
 | AW /aʊ/ | ow | MOUTH, noun, cow, shower | M-OU-TH, n-ou-n, c-ou, sh-ou-er | diphthong vowel |
 | UH /ʊ/ | uh | FOOT, took, good, put | F-UH-T, t-uh-c, gid, p-uh-t | short vowel |
 | P /p/ | p | penguin | p-e-nggwun | stop |
-| R /ɹ/ | r | rhinoceros | riyn-o-serus | liquid |
+| R /ɹ/ | r | rhinoceros | riyn-a-serus | liquid |
 | S /s/ | s | sloth | sl-ow-th | fricative |
-| ZH /ʒ/ | si | genre | si-o-nru | fricative |
+| ZH /ʒ/ | si | genre | si-a-nru | fricative |
 | Z /z/ | z | zebra | z-ee-bru | fricative |
 | SH /ʃ/ | sh | sheep | sh-ee-p | fricative |
 | T /t/ | t | tiger | t-iy-ger | stop |
