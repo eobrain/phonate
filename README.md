@@ -12,45 +12,45 @@ of English to a fixed set of letters, according to the following mapping.
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
 | AA /ɑ/~/ɒ/ | a | PALM, START, car, was, are | PÁLM, STÁRT, kár, wáz, ár | long vowel |
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRÁHP, BÁHTH, káht, fáhst, páhs, áhz, dháht, áht, háhz, áhn | short vowel |
+| AE /æ/ | ah | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRÁHP, BÁHTH, káht, fáhst, páhs, áhz, tháht, áht, háhz, áhn | short vowel |
 | AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THÁWT, NÁWRTH, wáwter, fáwr, áwlsoe, áwl | long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FÁYS, sáy, stáyn, fráyt, bikáym | diphthong vowel |
-| B /b/ | b | baboon | bubóon | stop |
-| CH /tʃ/ | ch | cheetah, century | chéetu, séncheree | áhfrukut  |
+| B /b/ | b | baboon | bebóon | stop |
+| CH /tʃ/ | ch | cheetah, century | chéete, séhncheree | áhfreket  |
 | D /d/ | d | deer | dír | stop |
-| DH /ð/ | dh | this, the, that | dhís, dhu, dháht | fricative |
-| EH /ɛ/ | e | DRESS, bread, many, friend, their | DRÉS, bréd, ménee, frénd, dhér | short vowel |
-| IY /i/ | ee | FLEECE, sea, people, police, he | FLÉES, sée, péepul, pulées, hée  |
-| ER /ɝ/ | er | urchin, first | érchun, férst | |
-| F /f/ | f | flamingo | flumínggoe | fricative |
-| G /ɡ/ | g | gazelle | guzél | stop |
-| HH /h/ | h | hippopotamus | hipupátumus | aspirate |
-| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KÍT, míth, prítee, wímun, íz, híz, kerír | short vowel |
+| AH /ʌ/ | e | STRUT, son, blood, the, of, and, a, one, from | STRÉT, sén, bléd, the, év, end, e, wén, frém | short vowel |
+| EH /ɛ/ | eh | DRESS, bread, many, friend, their | DRÉHS, bréhd, méhnee, fréhnd, théhr | short vowel |
+| IY /i/ | ee | FLEECE, sea, people, police, he | FLÉES, sée, péepel, pelées, hée  |
+| ER /ɝ/ | er | urchin, first | érchen, férst | |
+| F /f/ | f | flamingo | flemínggoe | fricative |
+| G /ɡ/ | g | gazelle | gezéhl | stop |
+| HH /h/ | h | hippopotamus | hipepátemes | aspirate |
+| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KÍT, míth, prítee, wímen, íz, híz, kerír | short vowel |
 | AY /aɪ/ | iy | PRICE, try, night, height, by, time | PRÍYS, tríy, níyt, híyt, bíy, tíym | vowel |
-| JH /dʒ/ | j | jackal, college | jáhkul, kálij | affricate |
+| JH /dʒ/ | j | jackal, college | jáhkel, kálij | affricate |
 | K /k/ | k | cat | káht | stop |
-| L /l/ | l | lion | líyun | liquid |
-| M /m/ | m | monkey | múngkee | nasal |
+| L /l/ | l | lion | líyen | liquid |
+| M /m/ | m | monkey | méngkee | nasal |
 | N /n/ | n | gnat | náht | nasal |
-| NG /ŋ/ | ng | anchor, long, among, doing | áhngker, láwng, umúng, dóoing | nasal |
+| NG /ŋ/ | ng | anchor, long, among, doing | áhngker, láwng, eméng, dóoing | nasal |
 | OW /oʊ/ | oe | GOAT, slow, toe, also, only | GÓET, slóe, tóe, áwlsoe, óenlee | diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHÓIS, nóiz, lóiter, bói | diphthong vowel |
-| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GÓOS, nóo, dóo, tóonu, tóo, yóos | long vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GÓOS, nóo, dóo, tóone, tóo, yóos | long vowel |
 | AW /aʊ/ | ou | MOUTH, noun, cow, shower | MÓUTH, nóun, kóu, shóuer | diphthong vowel |
-| P /p/ | p | penguin | pénggwun | stop |
-| R /ɹ/ | r | rhinoceros | riynáserus | liquid |
-| S /s/ | s | sloth, century | slóeth, séncheree | fricative |
+| P /p/ | p | penguin | péhnggwen | stop |
+| R /ɹ/ | r | rhinoceros | riynáseres | liquid |
+| S /s/ | s | sloth, century | slóeth, séhncheree | fricative |
 | SH /ʃ/ | sh | sheep | shéep | fricative |
-| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siánru, ahdhéesiun, ulóosiun, áysiu, káhsiuwul, disísiun | fricative |
+| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siánre, ahdhéesien, elóosien, áysie, káhsiewel, disísien | fricative |
 | T /t/ | t | tiger | tíyger | stop |
-| TH /θ/ | th | thrush | thrúsh | fricative |
-| AH /ʌ/ | u | STRUT, son, blood, the, of, and, a, one, from | STRÚT, sún, blúd, dhu, úv, und, u, wún, frúm | short vowel |
+| DH /ð/ | th | this, the, that | thís, the, tháht | fricative |
+| TH /θ/ | th | thrush | thrésh | fricative |
 | UH /ʊ/ | uh | FOOT, took, good, put, would | FÚHT, túhk, gúhd, púht, wúhd | short vowel |
-| V /v/ | v | vulture, of | vúlcher, úv | fricative |
-| W /w/ | w | walrus | wáwlrus | semi-vowel |
+| V /v/ | v | vulture, of | vélcher, év | fricative |
+| W /w/ | w | walrus | wáwlres | semi-vowel |
 | HH W | wh | wheat | whéet |
 | Y /j/ | y | yak | yáhk | semi-vowel |
-| Z /z/ | z | zebra, as, was, is | zéebru, áhz, wáz, íz, híz | fricative |
+| Z /z/ | z | zebra, as, was, is | zéebre, áhz, wáz, íz, híz | fricative |
  
 ## Using the library
 

@@ -1,7 +1,7 @@
 /;;;.*$/d
 /^[^A-Z]/d
 s/ HH W/wh/g
-s/ DH/dh/g
+s/ DH/th/g
 s/ TH/th/g
 s/ AA1/á/g
 s/ AA[02]/a/g
@@ -13,10 +13,10 @@ s/ K/k/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
-s/ AH1/ú/g
-s/ AH[02]/u/g
-s/ EH1/é/g
-s/ EH[02]/e/g
+s/ AH1/é/g
+s/ AH[02]/e/g
+s/ EH1/éh/g
+s/ EH[02]/eh/g
 s/ IY1/ée/g
 s/ IY[02]/ee/g
 s/ ER1/ér/g

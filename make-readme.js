@@ -21,8 +21,8 @@ of English to a fixed set of letters, according to the following mapping.
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |
 | CH /tʃ/ | ch | cheetah, century |`, ph`cheetah, century`, '|', ph`affricate`, ` |
 | D /d/ | d | deer |`, ph`deer`, `| stop |
-| DH /ð/ | dh | this, the, that |`, ph`this, the, that`, `| fricative |
-| EH /ɛ/ | e | DRESS, bread, many, friend, their |`, ph`DRESS, bread, many, friend, their`, `| short vowel |
+| AH /ʌ/ | e | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
+| EH /ɛ/ | eh | DRESS, bread, many, friend, their |`, ph`DRESS, bread, many, friend, their`, `| short vowel |
 | IY /i/ | ee | FLEECE, sea, people, police, he |`, ph`FLEECE, sea, people, police, he`, ` |
 | ER /ɝ/ | er | urchin, first |`, ph`urchin, first`, `| |
 | F /f/ | f | flamingo |`, ph`flamingo`, '| fricative', `|
@@ -46,8 +46,8 @@ of English to a fixed set of letters, according to the following mapping.
 | SH /ʃ/ | sh | sheep |`, ph`sheep`, `| fricative |
 | ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision |`, ph`genre, adhesion, allusion, asia, casual, decision`, `| fricative |
 | T /t/ | t | tiger |`, ph`tiger`, `| stop |
+| DH /ð/ | th | this, the, that |`, ph`this, the, that`, `| fricative |
 | TH /θ/ | th | thrush |`, ph`thrush`, `| fricative |
-| AH /ʌ/ | u | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
 | UH /ʊ/ | uh | FOOT, took, good, put, would |`, ph`FOOT, took, good, put, would`, `| short vowel |
 | V /v/ | v | vulture, of |`, ph`vulture, of`, `| fricative |
 | W /w/ | w | walrus |`, ph`walrus`, `| semi-vowel |
