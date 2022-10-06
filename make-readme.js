@@ -19,7 +19,6 @@ of English to a fixed set of letters, according to the following mapping.
 | AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all |`, ph`THOUGHT, NORTH, water, four, also, all`, `| long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became |`, ph`FACE, say, stain, freight, became`, `| diphthong vowel |
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |
-| K /k/ | c | cat |`, ph`cat`, `| stop |
 | CH /tʃ/ | ch | cheetah, century |`, ph`cheetah, century`, '|', ph`affricate`, ` |
 | D /d/ | d | deer |`, ph`deer`, `| stop |
 | DH /ð/ | dh | this, the, that |`, ph`this, the, that`, `| fricative |
@@ -32,6 +31,7 @@ of English to a fixed set of letters, according to the following mapping.
 | IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career |`, ph`KIT, myth, pretty, women, is, his, career`, `| short vowel |
 | AY /aɪ/ | iy | PRICE, try, night, height, by, time |`, ph`PRICE, try, night, height, by, time`, `| vowel |
 | JH /dʒ/ | j | jackal, college |`, ph`jackal, college`, `| affricate |
+| K /k/ | k | cat |`, ph`cat`, `| stop |
 | L /l/ | l | lion |`, ph`lion`, `| liquid |
 | M /m/ | m | monkey |`, ph`monkey`, `| nasal |
 | N /n/ | n | gnat |`, ph`gnat`, `| nasal |

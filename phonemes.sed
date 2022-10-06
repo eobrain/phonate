@@ -9,7 +9,7 @@ s/ AE1/áh/g
 s/ AE[02]/ah/g
 s/ EY1/áy/g
 s/ EY[02]/ay/g
-s/ K/c/g
+s/ K/k/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
