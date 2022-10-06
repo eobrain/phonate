@@ -1,4 +1,4 @@
-import { distance } from 'fastest-levenshtein'
+import distance from './levenshtein.js'
 import nReadlines from 'n-readlines'
 const Readlines = nReadlines
 
