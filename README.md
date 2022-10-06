@@ -31,7 +31,7 @@ of English to a fixed set of letters, according to the following mapping.
 | L /l/ | l | lion | líyun | liquid |
 | M /m/ | m | monkey | múngcee | nasal |
 | N /n/ | n | gnat | náht | nasal |
-| NG /ŋ/ | ng | anchor | áhngcer | nasal |
+| NG /ŋ/ | ng | anchor, long, among, doing | áhngcer, lóng, umúng, dóoing | nasal |
 | AO /ɔ/ | o | THOUGHT, NORTH, water, four, also, all | THÓT, NÓRTH, wóter, fór, ólsow, ól | long vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHÓIS, nóiz, lóiter, bói | diphthong vowel |
 | UW /u/ | oo | GOOSE, new, due, tuna, to, use | GÓOS, nóo, dóo, tóonu, tóo, yóos | long vowel |
