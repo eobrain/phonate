@@ -33,10 +33,10 @@ s/ L/l/g
 s/ M/m/g
 s/ NG/ng/g
 s/ N/n/g
-s/ AO1/ó/g
-s/ AO[02]/o/g
-s/ OW1/ów/g
-s/ OW[02]/ow/g
+s/ AO1/áw/g
+s/ AO[02]/aw/g
+s/ OW1/óe/g
+s/ OW[02]/oe/g
 s/ UH1/úh/g
 s/ UH[02]/uh/g
 s/ AW1/óu/g

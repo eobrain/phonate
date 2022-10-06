@@ -16,6 +16,7 @@ of English to a fixed set of letters, according to the following mapping.
 |---|---|---|---|---|
 | AA /ɑ/~/ɒ/ | a | PALM, START, car, was, are |`, ph`PALM, START, car, was, are`, `| long vowel |
 | AE /æ/ | ah | TRAP, BATH, cat, fast, pass, as, that, at, has, an |`, ph`TRAP, BATH, cat, fast, pass, as, that, at, has, an`, `| short vowel |
+| AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all |`, ph`THOUGHT, NORTH, water, four, also, all`, `| long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became |`, ph`FACE, say, stain, freight, became`, `| diphthong vowel |
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |
 | K /k/ | c | cat |`, ph`cat`, `| stop |
@@ -35,11 +36,10 @@ of English to a fixed set of letters, according to the following mapping.
 | M /m/ | m | monkey |`, ph`monkey`, `| nasal |
 | N /n/ | n | gnat |`, ph`gnat`, `| nasal |
 | NG /ŋ/ | ng | anchor, long, among, doing |`, ph`anchor, long, among, doing`, `| nasal |
-| AO /ɔ/ | o | THOUGHT, NORTH, water, four, also, all |`, ph`THOUGHT, NORTH, water, four, also, all`, `| long vowel |
+| OW /oʊ/ | oe | GOAT, slow, toe, also, only |`, ph`GOAT, slow, toe, also, only`, `| diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy |`, ph`CHOICE, noise, loiter, boy`, `| diphthong vowel |
 | UW /u/ | oo | GOOSE, new, due, tuna, to, use |`, ph`GOOSE, new, due, tuna, to, use`, `| long vowel |
 | AW /aʊ/ | ou | MOUTH, noun, cow, shower |`, ph`MOUTH, noun, cow, shower`, `| diphthong vowel |
-| OW /oʊ/ | ow | GOAT, slow, toe, also, only |`, ph`GOAT, slow, toe, also, only`, `| diphthong vowel |
 | P /p/ | p | penguin |`, ph`penguin`, `| stop |
 | R /ɹ/ | r | rhinoceros |`, ph`rhinoceros`, `| liquid |
 | S /s/ | s | sloth, century |`, ph`sloth, century`, `| fricative |

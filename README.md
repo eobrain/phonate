@@ -13,6 +13,7 @@ of English to a fixed set of letters, according to the following mapping.
 |---|---|---|---|---|
 | AA /ɑ/~/ɒ/ | a | PALM, START, car, was, are | PÁLM, STÁRT, cár, wáz, ár | long vowel |
 | AE /æ/ | ah | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRÁHP, BÁHTH, cáht, fáhst, páhs, áhz, dháht, áht, háhz, áhn | short vowel |
+| AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THÁWT, NÁWRTH, wáwter, fáwr, áwlsoe, áwl | long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FÁYS, sáy, stáyn, fráyt, bicáym | diphthong vowel |
 | B /b/ | b | baboon | bubóon | stop |
 | K /k/ | c | cat | cáht | stop |
@@ -22,7 +23,7 @@ of English to a fixed set of letters, according to the following mapping.
 | EH /ɛ/ | e | DRESS, bread, many, friend, their | DRÉS, bréd, ménee, frénd, dhér | short vowel |
 | IY /i/ | ee | FLEECE, sea, people, police, he | FLÉES, sée, péepul, pulées, hée  |
 | ER /ɝ/ | er | urchin, first | érchun, férst | |
-| F /f/ | f | flamingo | flumínggow | fricative |
+| F /f/ | f | flamingo | flumínggoe | fricative |
 | G /ɡ/ | g | gazelle | guzél | stop |
 | HH /h/ | h | hippopotamus | hipupátumus | aspirate |
 | IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | CÍT, míth, prítee, wímun, íz, híz, cerír | short vowel |
@@ -31,15 +32,14 @@ of English to a fixed set of letters, according to the following mapping.
 | L /l/ | l | lion | líyun | liquid |
 | M /m/ | m | monkey | múngcee | nasal |
 | N /n/ | n | gnat | náht | nasal |
-| NG /ŋ/ | ng | anchor, long, among, doing | áhngcer, lóng, umúng, dóoing | nasal |
-| AO /ɔ/ | o | THOUGHT, NORTH, water, four, also, all | THÓT, NÓRTH, wóter, fór, ólsow, ól | long vowel |
+| NG /ŋ/ | ng | anchor, long, among, doing | áhngcer, láwng, umúng, dóoing | nasal |
+| OW /oʊ/ | oe | GOAT, slow, toe, also, only | GÓET, slóe, tóe, áwlsoe, óenlee | diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHÓIS, nóiz, lóiter, bói | diphthong vowel |
 | UW /u/ | oo | GOOSE, new, due, tuna, to, use | GÓOS, nóo, dóo, tóonu, tóo, yóos | long vowel |
 | AW /aʊ/ | ou | MOUTH, noun, cow, shower | MÓUTH, nóun, cóu, shóuer | diphthong vowel |
-| OW /oʊ/ | ow | GOAT, slow, toe, also, only | GÓWT, slów, tów, ólsow, ównlee | diphthong vowel |
 | P /p/ | p | penguin | pénggwun | stop |
 | R /ɹ/ | r | rhinoceros | riynáserus | liquid |
-| S /s/ | s | sloth, century | slówth, séncheree | fricative |
+| S /s/ | s | sloth, century | slóeth, séncheree | fricative |
 | SH /ʃ/ | sh | sheep | shéep | fricative |
 | ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siánru, ahdhéesiun, ulóosiun, áysiu, cáhsiuwul, disísiun | fricative |
 | T /t/ | t | tiger | tíyger | stop |
@@ -47,7 +47,7 @@ of English to a fixed set of letters, according to the following mapping.
 | AH /ʌ/ | u | STRUT, son, blood, the, of, and, a, one, from | STRÚT, sún, blúd, dhu, úv, und, u, wún, frúm | short vowel |
 | UH /ʊ/ | uh | FOOT, took, good, put, would | FÚHT, túhc, gúhd, púht, wúhd | short vowel |
 | V /v/ | v | vulture, of | vúlcher, úv | fricative |
-| W /w/ | w | walrus | wólrus | semi-vowel |
+| W /w/ | w | walrus | wáwlrus | semi-vowel |
 | HH W | wh | wheat | whéet |
 | Y /j/ | y | yak | yáhc | semi-vowel |
 | Z /z/ | z | zebra, as, was, is | zéebru, áhz, wáz, íz, híz | fricative |
