@@ -28,6 +28,7 @@ for (const word in result) {
       bestDistance = dist
     }
   }
-  console.log(`"${word}": "${best}",`)
+  const key = word.match(/^[A-Z_][0-9A-Z_]*$/) ? word : `"${word}"`
+  console.log(`${key}:"${best}",`)
 }
 console.log('};')
