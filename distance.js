@@ -1,9 +1,9 @@
 import { convertWord } from './phonate.js'
-import { distance } from 'fastest-levenshtein'
+import distance from './levenshtein.js'
 import nReadlines from 'n-readlines'
 const Readlines = nReadlines
 
-const [,, inputPath] = process.argv
+const [, , inputPath] = process.argv
 const broadbandLines = new Readlines(inputPath)
 
 let line
@@ -36,5 +36,5 @@ while ((line = broadbandLines.next()) !== false) {
 }
 
 const averageCost = totalCost / totalCount
-const mostExpensive = sorted.map(a => `${a.word} -> ${a.phonetic}`)
+const mostExpensive = sorted.map((a) => `${a.word} -> ${a.phonetic}`)
 console.log({ averageCost }, { mostExpensive })

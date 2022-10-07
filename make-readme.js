@@ -14,46 +14,46 @@ of English to a fixed set of letters, according to the following mapping.
 
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass |`, ph`TRAP, BATH, cat, fast, pass`, `| short vowel |
-| AA /ɑ/~/ɒ/ | aa | PALM, START, car |`, ph`PALM, START, car`, `| long vowel |
+| AE /æ/ | a | TRAP, BATH, cat, fast, pass, as, that, at, has, an |`, ph`TRAP, BATH, cat, fast, pass, as, that, at, has, an`, `| short vowel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are |`, ph`PALM, START, car, was, are`, `| long vowel |
+| AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all |`, ph`THOUGHT, NORTH, water, four, also, all`, `| long vowel |
+| EY /eɪ/ | ay | FACE, say, stain, freight, they, became |`, ph`FACE, say, stain, freight, became`, `| diphthong vowel |
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |
-| K /k/ | c | cat |`, ph`cat`, `| stop |
-| CH /tʃ/ | ch | cheetah |`, ph`cheetah`, '|', ph`affricate`, ` |
+| CH /tʃ/ | ch | cheetah, century |`, ph`cheetah, century`, '|', ph`affricate`, ` |
 | D /d/ | d | deer |`, ph`deer`, `| stop |
-| AH /ʌ/ | u | STRUT, son, blood |`, ph`STRUT, son, blood`, `| short vowel |
-| IY /i/ | ee | FLEECE, sea, people, police |`, ph`FLEECE, sea, people, police`, ` |
-| EH /ɛ/ | eh | DRESS, bread, many, friend |`, ph`DRESS, bread, many, friend`, `| short vowel |
-| AY /aɪ/ | ei | PRICE, try, night, height |`, ph`PRICE, try, night, height`, `| vowel |
-| EY /eɪ/ | ey | FACE, say, stain, freight |`, ph`FACE, say, stain, freight`, `| diphthong vowel |
-| ER /ɝ/ | er | urchin |`, ph`urchin`, `| |
+| EH /ɛ/ | e | DRESS, bread, many, friend, their |`, ph`DRESS, bread, many, friend, their`, `| short vowel |
+| IY /i/ | ee | FLEECE, sea, people, police, he |`, ph`FLEECE, sea, people, police, he`, ` |
+| ER /ɝ/ | er | urchin, first |`, ph`urchin, first`, `| |
 | F /f/ | f | flamingo |`, ph`flamingo`, '| fricative', `|
 | G /ɡ/ | g | gazelle |`, ph`gazelle`, `| stop |
 | HH /h/ | h | hippopotamus |`, ph`hippopotamus`, `| aspirate |
-| IH /ɪ/ | ih | KIT, myth, pretty, women |`, ph`KIT, myth, pretty, women`, `| short vowel |
-| JH /dʒ/ | j | jackal |`, ph`jackal`, `| affricate |
+| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career |`, ph`KIT, myth, pretty, women, is, his, career`, `| short vowel |
+| AY /aɪ/ | iy | PRICE, try, night, height, by, time |`, ph`PRICE, try, night, height, by, time`, `| vowel |
+| JH /dʒ/ | j | jackal, college |`, ph`jackal, college`, `| affricate |
+| K /k/ | k | cat |`, ph`cat`, `| stop |
 | L /l/ | l | lion |`, ph`lion`, `| liquid |
 | M /m/ | m | monkey |`, ph`monkey`, `| nasal |
 | N /n/ | n | gnat |`, ph`gnat`, `| nasal |
-| NG /ŋ/ | ng | anchor |`, ph`anchor`, `| nasal |
-| AO /ɔ/ | ou | THOUGHT, NORTH, water, four |`, ph`THOUGHT, NORTH, water, four`, `| long vowel |
+| NG /ŋ/ | ng | anchor, long, among, doing |`, ph`anchor, long, among, doing`, `| nasal |
+| AH /ʌ/ | o | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
+| OW /oʊ/ | oe | GOAT, slow, toe, also, only |`, ph`GOAT, slow, toe, also, only`, `| diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy |`, ph`CHOICE, noise, loiter, boy`, `| diphthong vowel |
-| OW /oʊ/ | oh | GOAT, slow, toe |`, ph`GOAT, slow, toe`, `| diphthong vowel |
-| UW /u/ | oo | GOOSE, new, due, tuna |`, ph`GOOSE, new, due, tuna`, `| long vowel |
-| AW /aʊ/ | ow | MOUTH, noun, cow, shower |`, ph`MOUTH, noun, cow, shower`, `| diphthong vowel |
-| UH /ʊ/ | uh | FOOT, took, good, put |`, ph`FOOT, took, good, put`, `| short vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna, to, use |`, ph`GOOSE, new, due, tuna, to, use`, `| long vowel |
+| AW /aʊ/ | ou | MOUTH, noun, cow, shower |`, ph`MOUTH, noun, cow, shower`, `| diphthong vowel |
 | P /p/ | p | penguin |`, ph`penguin`, `| stop |
 | R /ɹ/ | r | rhinoceros |`, ph`rhinoceros`, `| liquid |
-| S /s/ | s | sloth |`, ph`sloth`, `| fricative |
-| ZH /ʒ/ | zh | genre |`, ph`genre`, `| fricative |
-| Z /z/ | z | zebra |`, ph`zebra`, `| fricative |
+| S /s/ | s | sloth, century |`, ph`sloth, century`, `| fricative |
 | SH /ʃ/ | sh | sheep |`, ph`sheep`, `| fricative |
+| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision |`, ph`genre, adhesion, allusion, asia, casual, decision`, `| fricative |
 | T /t/ | t | tiger |`, ph`tiger`, `| stop |
-| DH /ð/ | th | this |`, ph`this`, `| fricative |
+| DH /ð/ | th | this, the, that |`, ph`this, the, that`, `| fricative |
 | TH /θ/ | th | thrush |`, ph`thrush`, `| fricative |
-| V /v/ | v | vulture |`, ph`vulture`, `| fricative |
+| UH /ʊ/ | uh | FOOT, took, good, put, would |`, ph`FOOT, took, good, put, would`, `| short vowel |
+| V /v/ | v | vulture, of |`, ph`vulture, of`, `| fricative |
 | W /w/ | w | walrus |`, ph`walrus`, `| semi-vowel |
 | HH W | wh | wheat |`, ph`wheat`, `|
 | Y /j/ | y | yak |`, ph`yak`, `| semi-vowel |
+| Z /z/ | z | zebra, as, was, is |`, ph`zebra, as, was, is, his`, `| fricative |
  
 ## Using the library
 
