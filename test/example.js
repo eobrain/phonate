@@ -4,18 +4,18 @@ import { convert, convertWord } from '../phonate.js'
 import test from 'ava'
 
 test('basic', t => {
-  t.is(convert('spell English'), 'sp-eh-l Ih-nglihsh')
+  t.is(convert('spell English'), 'spél Ínglish')
 })
 
 test('case', t => {
-  t.is(convert('spell'), 'sp-eh-l')
-  t.is(convert('Spell'), 'Sp-eh-l')
-  t.is(convert('SPELL'), 'SP-EH-L')
-  t.is(convert('speLL'), 'sp-EH-L')
+  t.is(convert('spell'), 'spél')
+  t.is(convert('Spell'), 'Spél')
+  t.is(convert('SPELL'), 'SPÉL')
+  t.is(convert('speLL'), 'spéL')
 })
 
 test('convertWord', t => {
-  t.is(convertWord('in'), 'ihn')
+  t.is(convertWord('in'), 'in')
 })
 
 test('not a word', t => {
