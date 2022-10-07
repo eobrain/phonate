@@ -21,8 +21,7 @@ of English to a fixed set of letters, according to the following mapping.
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |
 | CH /tʃ/ | ch | cheetah, century |`, ph`cheetah, century`, '|', ph`affricate`, ` |
 | D /d/ | d | deer |`, ph`deer`, `| stop |
-| AH /ʌ/ | e | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
-| EH /ɛ/ | eh | DRESS, bread, many, friend, their |`, ph`DRESS, bread, many, friend, their`, `| short vowel |
+| EH /ɛ/ | e | DRESS, bread, many, friend, their |`, ph`DRESS, bread, many, friend, their`, `| short vowel |
 | IY /i/ | ee | FLEECE, sea, people, police, he |`, ph`FLEECE, sea, people, police, he`, ` |
 | ER /ɝ/ | er | urchin, first |`, ph`urchin, first`, `| |
 | F /f/ | f | flamingo |`, ph`flamingo`, '| fricative', `|
@@ -36,6 +35,7 @@ of English to a fixed set of letters, according to the following mapping.
 | M /m/ | m | monkey |`, ph`monkey`, `| nasal |
 | N /n/ | n | gnat |`, ph`gnat`, `| nasal |
 | NG /ŋ/ | ng | anchor, long, among, doing |`, ph`anchor, long, among, doing`, `| nasal |
+| AH /ʌ/ | o | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
 | OW /oʊ/ | oe | GOAT, slow, toe, also, only |`, ph`GOAT, slow, toe, also, only`, `| diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy |`, ph`CHOICE, noise, loiter, boy`, `| diphthong vowel |
 | UW /u/ | oo | GOOSE, new, due, tuna, to, use |`, ph`GOOSE, new, due, tuna, to, use`, `| long vowel |

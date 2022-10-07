@@ -13,10 +13,10 @@ s/ K/k/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
-s/ AH1/é/g
-s/ AH[02]/e/g
-s/ EH1/éh/g
-s/ EH[02]/eh/g
+s/ AH1/ó/g
+s/ AH[02]/o/g
+s/ EH1/é/g
+s/ EH[02]/e/g
 s/ IY1/ée/g
 s/ IY[02]/ee/g
 s/ ER1/ér/g
