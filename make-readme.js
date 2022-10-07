@@ -14,8 +14,8 @@ of English to a fixed set of letters, according to the following mapping.
 
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
-| AA /ɑ/~/ɒ/ | a | PALM, START, car, was, are |`, ph`PALM, START, car, was, are`, `| long vowel |
-| AE /æ/ | ah | TRAP, BATH, cat, fast, pass, as, that, at, has, an |`, ph`TRAP, BATH, cat, fast, pass, as, that, at, has, an`, `| short vowel |
+| AE /æ/ | a | TRAP, BATH, cat, fast, pass, as, that, at, has, an |`, ph`TRAP, BATH, cat, fast, pass, as, that, at, has, an`, `| short vowel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are |`, ph`PALM, START, car, was, are`, `| long vowel |
 | AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all |`, ph`THOUGHT, NORTH, water, four, also, all`, `| long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became |`, ph`FACE, say, stain, freight, became`, `| diphthong vowel |
 | B /b/ | b | baboon |`, ph`baboon`, `| stop |

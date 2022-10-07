@@ -3,10 +3,10 @@
 s/ HH W/wh/g
 s/ DH/th/g
 s/ TH/th/g
-s/ AA1/á/g
-s/ AA[02]/a/g
-s/ AE1/áh/g
-s/ AE[02]/ah/g
+s/ AA1/áa/g
+s/ AA[02]/aa/g
+s/ AE1/á/g
+s/ AE[02]/a/g
 s/ EY1/áy/g
 s/ EY[02]/ay/g
 s/ K/k/g
