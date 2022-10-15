@@ -15,42 +15,42 @@ of English to a fixed set of letters, according to the following mapping.
 | AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are | PAAM, STAART, kaar, waaz, aar | long vowel |
 | AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THAWT, NAWRTH, wawter, fawr, awlsoe, awl | long vowel |
 | EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FAYS, say, stayn, frayt, thay, bikaym | diphthong vowel |
-| B /b/ | b | baboon | boboon | stop |
-| CH /tʃ/ | ch | cheetah, century | cheeto, sencheree | afrokot  |
+| B /b/ | b | baboon | buboon | stop |
+| CH /tʃ/ | ch | cheetah, century | cheetu, sencheree | afrukut  |
 | D /d/ | d | deer | dir | stop |
 | EH /ɛ/ | e | DRESS, bread, many, friend, their | DRES, bred, menee, frend, ther | short vowel |
-| IY /i/ | ee | FLEECE, sea, people, police, he | FLEES, see, peepol, polees, hee  |
-| ER /ɝ/ | er | urchin, first | erchon, ferst | |
-| F /f/ | f | flamingo | flominggoe | fricative |
-| G /ɡ/ | g | gazelle | gozel | stop |
-| HH /h/ | h | hippopotamus | hipopaatomos | aspirate |
-| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KIT, mith, pritee, wimon, iz, hiz, kerir | short vowel |
+| IY /i/ | ee | FLEECE, sea, people, police, he | FLEES, see, peepul, pulees, hee  |
+| ER /ɝ/ | er | urchin, first | erchun, ferst | |
+| F /f/ | f | flamingo | fluminggoe | fricative |
+| G /ɡ/ | g | gazelle | guzel | stop |
+| HH /h/ | h | hippopotamus | hipupaatumus | aspirate |
+| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KIT, mith, pritee, wimun, iz, hiz, kerir | short vowel |
 | AY /aɪ/ | iy | PRICE, try, night, height, by, time | PRIYS, triy, niyt, hiyt, biy, tiym | vowel |
-| JH /dʒ/ | j | jackal, college | jakol, kaalij | affricate |
+| JH /dʒ/ | j | jackal, college | jakul, kaalij | affricate |
 | K /k/ | k | cat | kat | stop |
-| L /l/ | l | lion | liyon | liquid |
-| M /m/ | m | monkey | mongkee | nasal |
+| L /l/ | l | lion | liyun | liquid |
+| M /m/ | m | monkey | mungkee | nasal |
 | N /n/ | n | gnat | nat | nasal |
-| NG /ŋ/ | ng | anchor, long, among, doing | angker, lawng, omong, dooing | nasal |
-| AH /ʌ/ | o | STRUT, son, blood, the, of, a, one, from | STROT, son, blod, tho, ov, o, won, from | short vowel |
+| NG /ŋ/ | ng | anchor, long, among, doing | angker, lawng, umung, dooing | nasal |
 | OW /oʊ/ | oe | GOAT, slow, toe, also, only | GOET, sloe, toe, awlsoe, oenlee | diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | diphthong vowel |
-| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GOOS, noo, doo, toono, to, yoos | long vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GOOS, noo, doo, toonu, too, yoos | long vowel |
 | AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, kou, shouer | diphthong vowel |
-| P /p/ | p | penguin | penggwon | stop |
-| R /ɹ/ | r | rhinoceros | riynaaseros | liquid |
+| P /p/ | p | penguin | penggwun | stop |
+| R /ɹ/ | r | rhinoceros | riynaaserus | liquid |
 | S /s/ | s | sloth, century | sloeth, sencheree | fricative |
 | SH /ʃ/ | sh | sheep | sheep | fricative |
-| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siaanro, adheesion, oloosion, aysio, kasiowol, disision | fricative |
+| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siaanru, adheesiun, uloosiun, aysiu, kasiuwul, disisiun | fricative |
 | T /t/ | t | tiger | tiyger | stop |
-| DH /ð/ | th | this, the, that | this, tho, that | fricative |
-| TH /θ/ | th | thrush | throsh | fricative |
+| DH /ð/ | th | this, the, that | this, thu, that | fricative |
+| TH /θ/ | th | thrush | thrush | fricative |
+| AH /ʌ/ | u | STRUT, son, blood, the, of, a, one, from | STRUT, sun, blud, thu, uv, u, wun, frum | short vowel |
 | UH /ʊ/ | uh | FOOT, took, good, put, would | FUHT, tuhk, guhd, puht, wuhd | short vowel |
-| V /v/ | v | vulture, of | volcher, ov | fricative |
-| W /w/ | w | walrus | wawlros | semi-vowel |
+| V /v/ | v | vulture, of | vulcher, uv | fricative |
+| W /w/ | w | walrus | wawlrus | semi-vowel |
 | HH W | wh | wheat | wheet |
 | Y /j/ | y | yak | yak | semi-vowel |
-| Z /z/ | z | zebra, as, was, is | zeebro, az, waaz, iz, hiz | fricative |
+| Z /z/ | z | zebra, as, was, is | zeebru, az, waaz, iz, hiz | fricative |
  
 ## Using the library
 

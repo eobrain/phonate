@@ -10,7 +10,7 @@ s/ K/k/g
 s/ B/b/g
 s/ CH/ch/g
 s/ D/d/g
-s/ AH[012]/o/g
+s/ AH[012]/u/g
 s/ EH[012]/e/g
 s/ IY[012]/ee/g
 s/ ER[012]/er/g
