@@ -35,7 +35,7 @@ of English to a fixed set of letters, according to the following mapping.
 | M /m/ | m | monkey |`, ph`monkey`, `| nasal |
 | N /n/ | n | gnat |`, ph`gnat`, `| nasal |
 | NG /ŋ/ | ng | anchor, long, among, doing |`, ph`anchor, long, among, doing`, `| nasal |
-| AH /ʌ/ | o | STRUT, son, blood, the, of, and, a, one, from |`, ph`STRUT, son, blood, the, of, and, a, one, from`, `| short vowel |
+| AH /ʌ/ | o | STRUT, son, blood, the, of, a, one, from |`, ph`STRUT, son, blood, the, of, a, one, from`, `| short vowel |
 | OW /oʊ/ | oe | GOAT, slow, toe, also, only |`, ph`GOAT, slow, toe, also, only`, `| diphthong vowel |
 | OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy |`, ph`CHOICE, noise, loiter, boy`, `| diphthong vowel |
 | UW /u/ | oo | GOOSE, new, due, tuna, to, use |`, ph`GOOSE, new, due, tuna, to, use`, `| long vowel |

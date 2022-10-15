@@ -4,14 +4,14 @@ import { convert, convertWord } from '../phonate.js'
 import test from 'ava'
 
 test('basic', t => {
-  t.is(convert('spell English'), 'spél Ínglish')
+  t.is(convert('spell English'), 'spel Inglish')
 })
 
 test('case', t => {
-  t.is(convert('spell'), 'spél')
-  t.is(convert('Spell'), 'Spél')
-  t.is(convert('SPELL'), 'SPÉL')
-  t.is(convert('speLL'), 'spéL')
+  t.is(convert('spell'), 'spel')
+  t.is(convert('Spell'), 'Spel')
+  t.is(convert('SPELL'), 'SPEL')
+  t.is(convert('speLL'), 'speL')
 })
 
 test('convertWord', t => {

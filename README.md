@@ -11,46 +11,46 @@ of English to a fixed set of letters, according to the following mapping.
 
 | Phoneme | Spelling | Example, standard | Example, phonetic | Type |
 |---|---|---|---|---|
-| AE /æ/ | a | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRÁP, BÁTH, kát, fást, pás, áz, thát, át, ház, án | short vowel |
-| AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are | PÁAM, STÁART, káar, wáaz, áar | long vowel |
-| AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THÁWT, NÁWRTH, wáwter, fáwr, áwlsoe, áwl | long vowel |
-| EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FÁYS, sáy, stáyn, fráyt, tháy, bikáym | diphthong vowel |
-| B /b/ | b | baboon | bobóon | stop |
-| CH /tʃ/ | ch | cheetah, century | chéeto, séncheree | áfrokot  |
-| D /d/ | d | deer | dír | stop |
-| EH /ɛ/ | e | DRESS, bread, many, friend, their | DRÉS, bréd, ménee, frénd, thér | short vowel |
-| IY /i/ | ee | FLEECE, sea, people, police, he | FLÉES, sée, péepol, polées, hée  |
-| ER /ɝ/ | er | urchin, first | érchon, férst | |
-| F /f/ | f | flamingo | flomínggoe | fricative |
-| G /ɡ/ | g | gazelle | gozél | stop |
-| HH /h/ | h | hippopotamus | hipopáatomos | aspirate |
-| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KÍT, míth, prítee, wímon, íz, híz, kerír | short vowel |
-| AY /aɪ/ | iy | PRICE, try, night, height, by, time | PRÍYS, tríy, níyt, híyt, bíy, tíym | vowel |
-| JH /dʒ/ | j | jackal, college | jákol, káalij | affricate |
-| K /k/ | k | cat | kát | stop |
-| L /l/ | l | lion | líyon | liquid |
-| M /m/ | m | monkey | móngkee | nasal |
-| N /n/ | n | gnat | nát | nasal |
-| NG /ŋ/ | ng | anchor, long, among, doing | ángker, láwng, omóng, dóoing | nasal |
-| AH /ʌ/ | o | STRUT, son, blood, the, of, and, a, one, from | STRÓT, són, blód, tho, óv, ánd, o, wón, fróm | short vowel |
-| OW /oʊ/ | oe | GOAT, slow, toe, also, only | GÓET, slóe, tóe, áwlsoe, óenlee | diphthong vowel |
-| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHÓIS, nóiz, lóiter, bói | diphthong vowel |
-| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GÓOS, nóo, dóo, tóono, to, yóos | long vowel |
-| AW /aʊ/ | ou | MOUTH, noun, cow, shower | MÓUTH, nóun, kóu, shóuer | diphthong vowel |
-| P /p/ | p | penguin | pénggwon | stop |
-| R /ɹ/ | r | rhinoceros | riynáaseros | liquid |
-| S /s/ | s | sloth, century | slóeth, séncheree | fricative |
-| SH /ʃ/ | sh | sheep | shéep | fricative |
-| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siáanro, adhéesion, olóosion, áysio, kásiowol, disísion | fricative |
-| T /t/ | t | tiger | tíyger | stop |
-| DH /ð/ | th | this, the, that | thís, tho, thát | fricative |
-| TH /θ/ | th | thrush | thrósh | fricative |
-| UH /ʊ/ | uh | FOOT, took, good, put, would | FÚHT, túhk, gúhd, púht, wúhd | short vowel |
-| V /v/ | v | vulture, of | vólcher, óv | fricative |
-| W /w/ | w | walrus | wáwlros | semi-vowel |
-| HH W | wh | wheat | whéet |
-| Y /j/ | y | yak | yák | semi-vowel |
-| Z /z/ | z | zebra, as, was, is | zéebro, áz, wáaz, íz, híz | fricative |
+| AE /æ/ | a | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRAP, BATH, kat, fast, pas, az, that, at, haz, an | short vowel |
+| AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are | PAAM, STAART, kaar, waaz, aar | long vowel |
+| AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THAWT, NAWRTH, wawter, fawr, awlsoe, awl | long vowel |
+| EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FAYS, say, stayn, frayt, thay, bikaym | diphthong vowel |
+| B /b/ | b | baboon | boboon | stop |
+| CH /tʃ/ | ch | cheetah, century | cheeto, sencheree | afrokot  |
+| D /d/ | d | deer | dir | stop |
+| EH /ɛ/ | e | DRESS, bread, many, friend, their | DRES, bred, menee, frend, ther | short vowel |
+| IY /i/ | ee | FLEECE, sea, people, police, he | FLEES, see, peepol, polees, hee  |
+| ER /ɝ/ | er | urchin, first | erchon, ferst | |
+| F /f/ | f | flamingo | flominggoe | fricative |
+| G /ɡ/ | g | gazelle | gozel | stop |
+| HH /h/ | h | hippopotamus | hipopaatomos | aspirate |
+| IH /ɪ/ | i | KIT, myth, pretty, women, is, his, career | KIT, mith, pritee, wimon, iz, hiz, kerir | short vowel |
+| AY /aɪ/ | iy | PRICE, try, night, height, by, time | PRIYS, triy, niyt, hiyt, biy, tiym | vowel |
+| JH /dʒ/ | j | jackal, college | jakol, kaalij | affricate |
+| K /k/ | k | cat | kat | stop |
+| L /l/ | l | lion | liyon | liquid |
+| M /m/ | m | monkey | mongkee | nasal |
+| N /n/ | n | gnat | nat | nasal |
+| NG /ŋ/ | ng | anchor, long, among, doing | angker, lawng, omong, dooing | nasal |
+| AH /ʌ/ | o | STRUT, son, blood, the, of, a, one, from | STROT, son, blod, tho, ov, o, won, from | short vowel |
+| OW /oʊ/ | oe | GOAT, slow, toe, also, only | GOET, sloe, toe, awlsoe, oenlee | diphthong vowel |
+| OY /ɔɪ/ | oi | CHOICE, noise, loiter, boy | CHOIS, noiz, loiter, boi | diphthong vowel |
+| UW /u/ | oo | GOOSE, new, due, tuna, to, use | GOOS, noo, doo, toono, to, yoos | long vowel |
+| AW /aʊ/ | ou | MOUTH, noun, cow, shower | MOUTH, noun, kou, shouer | diphthong vowel |
+| P /p/ | p | penguin | penggwon | stop |
+| R /ɹ/ | r | rhinoceros | riynaaseros | liquid |
+| S /s/ | s | sloth, century | sloeth, sencheree | fricative |
+| SH /ʃ/ | sh | sheep | sheep | fricative |
+| ZH /ʒ/ | si | genre, adhesion, allusion, asia, casual, decision | siaanro, adheesion, oloosion, aysio, kasiowol, disision | fricative |
+| T /t/ | t | tiger | tiyger | stop |
+| DH /ð/ | th | this, the, that | this, tho, that | fricative |
+| TH /θ/ | th | thrush | throsh | fricative |
+| UH /ʊ/ | uh | FOOT, took, good, put, would | FUHT, tuhk, guhd, puht, wuhd | short vowel |
+| V /v/ | v | vulture, of | volcher, ov | fricative |
+| W /w/ | w | walrus | wawlros | semi-vowel |
+| HH W | wh | wheat | wheet |
+| Y /j/ | y | yak | yak | semi-vowel |
+| Z /z/ | z | zebra, as, was, is | zeebro, az, waaz, iz, hiz | fricative |
  
 ## Using the library
 
