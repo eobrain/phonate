@@ -14,7 +14,7 @@ of English to a fixed set of letters, according to the following mapping.
 | AE /æ/ | a | TRAP, BATH, cat, fast, pass, as, that, at, has, an | TRÁP, BÁTH, kát, fást, pás, áz, thát, át, ház, án | short vowel |
 | AA /ɑ/~/ɒ/ | aa | PALM, START, car, was, are | PÁAM, STÁART, káar, wáaz, áar | long vowel |
 | AO /ɔ/ | aw | THOUGHT, NORTH, water, four, also, all | THÁWT, NÁWRTH, wáwter, fáwr, áwlsoe, áwl | long vowel |
-| EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FÁYS, sáy, stáyn, fráyt, bikáym | diphthong vowel |
+| EY /eɪ/ | ay | FACE, say, stain, freight, they, became | FÁYS, sáy, stáyn, fráyt, tháy, bikáym | diphthong vowel |
 | B /b/ | b | baboon | bobóon | stop |
 | CH /tʃ/ | ch | cheetah, century | chéeto, séncheree | áfrokot  |
 | D /d/ | d | deer | dír | stop |
