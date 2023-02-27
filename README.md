@@ -1,7 +1,7 @@
 
 # English
 
-See https://github.com/eobrain/spehl
+See https://github.com/eobrain/funetik
 For an example of a project that uses this library.
 
 Have you ever wondered what English would look like if
